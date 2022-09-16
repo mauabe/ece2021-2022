@@ -1,0 +1,357 @@
+@charset "utf-8";
+@import "./variables.scss";
+
+// font-family: 'Oswald', sans-serif;  font-weight: 300,500,700;font-size: .7em;
+// font-family: 'Libre Caslon Text', serif;  font-weight:  400,400i,700;font-size: .7em;
+// font-family: 'Lemon', cursive; font-weight: 700;font-size: .7em;
+
+.article{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0 12% 2em 12%;
+  background: $sweetleaf--30;
+  // background-image:  url("../assets/images/overlay.png");
+  overflow: hidden;
+
+  .article-content{
+    position: relative;
+    width: 100%;
+
+    .container{
+      display: block;
+      position: relative;
+      top: 0;
+      height: 180px;
+      width: 100%;
+
+      img.article-main-photo {
+        position: relative;
+        top: 0;
+        height: 180px;
+        width: 100%;
+        object-position: 50% 50%;
+        object-fit: cover;
+        overflow: hidden;
+      }
+      /* The overlay effect - lays on top of the container and over the image */
+      .overlay {
+        position: absolute;
+        top: 0;
+        height: 180px;
+        width: 100%;
+        background: rgb(99,62,84);
+        background: linear-gradient(rgba(58, 76, 105, 0.7), rgba(52, 65, 105, 0.7));
+
+        transition: all .3s ease-in-out;
+        opacity:0.5;
+
+        &:hover {
+          background: linear-gradient(rgba(58, 76, 105, 0.5), rgba(52, 65, 105, 0.5));
+        }
+      }
+    }  //end container
+    /*
+      NEWS
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+      HIGHLIGHTS
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+      STUDENTS TEACHING
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+      Faculty
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+      OVERVIEW
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+      ALUMNI
+      background: linear-gradient(rgba(108,76,195,.8),rgba(92,65,76,.8));
+
+    */
+    /* When you mouse over the container, fade in the overlay title */
+
+    .article-header{
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      margin: 3rem 2rem 2rem 2rem;
+      justify-content: flex-start;
+      overflow: auto;
+
+      .author-frame{
+        flex: 0 0 auto;
+        width: 9rem;
+        height: 9rem;
+        overflow: hidden;
+        background-color: $white;
+        border: 1px solid $ivy;
+        border-radius: $border-radius;
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
+        margin: 0 2rem 0 2px ;
+        margin-right: 4rem;
+        transition: all 0.1s ease-in-out;
+
+        img.author{
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        &:hover{
+          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 5px rgba(0, 0, 0, 0.50);
+        }
+      }
+
+      .article-headline{
+        position: relative;
+        margin-bottom: 3rem;
+        font-size: 1rem;
+        color: $ivy;
+
+        .headline-lead {
+          font-family: 'Oswald', sans-serif;
+          font-weight: 300;
+          font-size: 1.3em;
+          color: $black-60;
+        }
+        .headline{
+          font-family: 'Quattrocento Sans', sans-serif;
+          font-weight: 700;
+          font-size: 2.8em;
+          // color: $ivy;
+        }
+        .subhead{
+          font-family: 'Oswald', sans-serif;
+          font-weight: 300;
+          font-size: 1.8em;
+          color: $black-60;
+        }
+      }
+    }
+
+    .text-copy{
+      display: flex;
+      font-family: 'Libre Caslon Text', serif;
+      font-weight: 400;
+      font-size: 1em;
+      padding: 2em;
+
+      text-indent: 2em;
+      line-height: 1.8;
+      margin-top: -40px;
+      color: $black-80;
+
+      span.text-body{
+        font-family: "Libre Caslon Text", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      p {
+        margin-bottom:1.5em;
+      }
+      a{
+        color: $black-95;
+      }
+      span.first-letter{
+        font-family: 'Grand Hotel', cursive, "Times", "Times New Roman";
+        // initial-letter: 3 2;
+        font-size: 2.5em;
+        float: left;
+        margin: -0.2em .4em 0 0;
+        color: $ivy;
+        text-indent: 0;
+      }
+    }
+  } //end article-content
+
+  p > {
+    span {
+      font-weight: bold;
+      font-style: italic;
+    }
+  }
+
+  .picture-area.pict-area{
+    display: grid;
+    padding: 2em;
+    grid-template-columns: 1fr;
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      object-fit: cover;
+
+      img.articleImageLeft {
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+      }
+      img.articleImageRight {
+        object-fit: cover;
+        object-position: 50% 50%;
+        width: 100%;
+        height: 280px;
+        overflow: hidden;
+      }
+
+      img.articleImageLeft.none{
+        display: none;
+        max-height: 10px;
+      }
+    }
+  }
+
+  .caption{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 1em 0 0 0 ;
+  }
+  .caption-none{
+    padding: 0em ;
+    display: none;
+  }
+  .credits{
+    padding: 0 2em 2em 2em;
+
+    .image-credits,
+    .author-credits{
+      font-family: 'Oswald', sans-serif;
+      font-weight: 300;
+      font-size: .8em;
+
+    }
+  }
+
+  .picture-area.none{
+    display: none;
+  }
+  .full-width {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+  }
+
+  .twocolumns{
+    display: grid;
+    grid-gap: 3em;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    align-content: start;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+  .half{
+    display: flex;
+    flex: 1 1 50%;
+    align-content: flex-start;
+  }
+  .link, a.link{
+    font-family: 'Libre Caslon Text', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9em;
+    color: $black-80;
+    transition: all .3s ease-in-out;
+    margin: 0 .3em;
+    cursor: pointer;
+
+    &:hover{
+      color: $berry;
+    }
+  }
+}  //end or article
+
+
+//additional CSS for spcific pages:
+
+.text-body, .text-body.annualreport{
+  width: 100%;
+}
+
+.piechart{
+  max-width: 100%;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+/* Large screens */
+@media only screen and (max-width: 1200px) {
+  .article {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+
+  .headline-lead{
+    font-size: 1.1em;
+  }
+  .article-headline{
+    font-size: 1.8rem;
+  }
+  .article-subhead{
+    font-size: 1.4em;
+    // margin-bottom: 1em;
+  }
+  .text-copy{
+    text-indent: 2em;
+    margin-top: 0px;
+  }
+  .article-header{
+    margin-bottom: 2em;
+  }
+
+  .picture-area.pict-area{
+      // display: block;
+    .row{
+      grid-template-columns: 1fr;
+      // display: block;
+      // align-items: center;
+    }
+  }
+  .row{
+    grid-template-columns: 1fr;
+  }
+
+  .twocolumns {
+    display: grid;
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+    grid-auto-flow: column;
+  }
+}
+
+/* Medium screens */
+
+@media only screen and (max-width: 950px) {
+  .article {
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+  .picture-area, .pict-area{
+    display: block;
+    // margin: auto;
+    .row{
+      display: block;
+      align-items: center;
+      grid-template-columns: 1fr;
+      // margin: 1em auto 1em auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .article {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@import './grid-layout.scss';
+@import './grid-cards.scss';
+@import './tables.scss';

@@ -1,0 +1,181 @@
+@charset "utf-8";
+@import "./variables.scss";
+
+
+// classes in use: content-area > panelsContainer > panel > panel${id} > panelContent > panelTitle, panelName, panelText, panelLinkButton
+
+.panelsContainer {
+  display: flex;
+  flex: 1 1 100%;
+  min-height: 85vh;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+
+
+  .panel{
+    font-size: 0.9rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    margin: 0;
+    max-width: 12.5%;
+    min-width: 11%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    filter: grayscale(0.85);
+    position: relative;
+    transition:
+      min-width 0.3s ease-in-out 0.3s,
+      opacity 0.5s ease-in-out 0.3s,
+      filter 0.3s ease-in-out 0.3s,
+      font-size 0.7s cubic-bezier(0.6,-0.5, 0.7,-0.1),
+      flex 0.7s cubic-bezier(0.6,-0.5, 0.7,-0.1);
+
+    .panelContent {
+      display: flex;
+      flex: 1 1 100%;
+      top: 45%;
+      position: absolute;
+      margin: 0 0.5em 0 1em;
+      align-items: flex-start;
+      flex-direction: column;
+
+      .panelTextBox{
+        display: flex;
+        flex-direction: column;
+        min-width: 5rem;
+        max-width: 10rem;
+        margin: 0;
+
+        .panelTitle, .panelFirstName {
+          display: flex;
+          flex: 1 1 100%;
+          font-family:'Quattrocento Sans', sans-serif;
+          font-size: 1.3em;
+          letter-spacing: 0.1ch;
+          text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
+        }
+        .panelName {
+          display: flex;
+          color: $gallery;
+          flex: 1 1 100%;
+          font-family:'Grand Hotel', cursive;
+          font-size: 2.0em;
+          font-weight: 700;
+          // margin: 0.2em 0;
+          text-shadow: 0 4px 10px rgba(0, 0, 0, 0.72);
+        }
+      }
+      .panelText {
+        display: flex;
+        max-width: 6rem;
+        line-height: 1.4;
+        font-family:'Quattrocento Sans', sans-serif;
+        font-size: 1.3em;
+        opacity: 0;
+        text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
+        margin: 0;
+        padding: 0.5em 1em 0.5em 0;
+      }
+
+    } //end panelContent
+
+    .panelLinkButton{
+      display: flex;
+      bottom: 12%;
+      font-family:'Quattrocento Sans', sans-serif;
+      font-weight: 700;
+      width: 5em;
+      height: 1.3em;
+      opacity: 0;
+      background-color: orange;
+      position: absolute;
+      margin: 0 1em;
+      padding: 1em;
+      align-items: center;
+
+      @media only screen and (max-width: 600px) {
+          opacity: 0;
+          background-color: transparent;
+          color: transparent;
+      }
+    }
+
+
+    &:hover{
+      transition: filter 0.3s, min-width 0.3s ease-in-out 0.3s;
+      filter: grayscale(0.01);
+      min-width: 14%;
+
+      .panelText{
+        transition: opacity 0.3s ease-in-out 0.3s;
+        opacity: 1;
+      }
+      .panelLinkButton {
+        transition: opacity 1.5s ease-in-out 0.3s;
+        opacity: 1;
+      }
+
+    }
+  } // end of .panel
+
+
+} //end panelsContainer
+
+@media only screen and (max-width: 1200px) {
+  .panel {
+    font-size: 0.9em;
+  };
+}
+@media only screen and (max-width: 900px) {
+  .panelsContainer{
+    flex-direction: column;
+    .panel {
+      // font-size: 0.7em;
+      flex-direction: row;
+      max-width: 100%;
+      max-height: 14%;
+      filter: grayscale(0.01);
+      .panelContent {
+        top: 2rem;
+        flex-direction: row;
+        margin: 0 0 0 5rem;
+        .panelTextBox{
+          min-width: 9rem;
+          margin: 0;
+        }
+        .panelText {
+          min-width: 9rem;
+          max-width: 15rem;
+          top: 2rem;
+          margin: 0;
+          opacity: 1;
+        }
+      }
+      .panelLinkButton {
+        max-height: 1.0em;
+        font-size: .9em;
+        top: 2rem;
+        right: 4rem;
+        opacity: 1;
+        margin: 0;
+        z-index: 20;
+       }
+
+      &:hover{
+        transition: filter 0.3s ease-in-out 0.3s;
+        filter: grayscale(0.01);
+      }
+    }
+  }
+
+
+
+  .article {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
