@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import{withRouter} from 'react-router-dom';
 import ReactHtmlParser from 'react-html-parser'; //, { processNodes, convertNodeToElement, htmlparser2 }
-import Story from './Story';
+// import Story from './Story';
 
 class Article extends Component{
 
@@ -11,11 +11,12 @@ class Article extends Component{
       pageView: this.props.pageView,
       articleSelection: this.props.articleSelection,
     }
-		// console.log('%c PROPS at ARTICLE COMPONENTS constructor', 'color:black;background:magenta;padding:6px;border:1px dashed black', this.props)
+		console.log('%c PROPS at ARTICLE COMPONENTS constructor', 'color:black;background:magenta;padding:6px;border:1px dashed black', this.props)
   }
 
   renderTextCopy = () => {
-    const html = (this.props.story.textCopy.length === 0) ? <Story /> : `${this.props.story.textCopy}`;
+    const html =  `${this.props.story.textCopy}`;
+    // const html = (this.props.story.textCopy.length === 0) ? <Story /> : `${this.props.story.textCopy}`;
     return (
       <div className="text-copy">
         <div className={`text-body ${this.props.story.articleId}`}>{ ReactHtmlParser(html) }</div>
