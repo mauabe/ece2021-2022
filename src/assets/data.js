@@ -24,13 +24,14 @@ export const logos = {
   "ece": "/img/ECE.png",
 };
 
+
 export const panels = [
   {
     id: "0",
     title: "Professor",
     firstname: "Suhas",
     name: "Diggavi",
-    text: "Facebook and Amazon Research Awards and Guggenheim Fellowship",
+    text: "Facebook and Amazon",
     linkCopy: "more",
     image: "https://source.unsplash.com/6k2wkqGMw1I/1500x1500",
     link: "highlights1"
@@ -38,9 +39,9 @@ export const panels = [
   {
     id: "1",
     title: "Professor",
-    firstname: "Achuta",
-    name: "Kadambi",
-    text: 'NSF Career Award and Featured in "Science Journal"',
+    firstname: "Jackie",
+    name: "Tran",
+    text: 'Award and Feature',
     linkCopy: "more",
     image: "https://source.unsplash.com/7FOSJVtUtac/1500x1500",
     link: "highlights2"
@@ -50,7 +51,7 @@ export const panels = [
     title: "Professor",
     firstname: "<div>Xiang </br>Anthony</div>",
     name: "Chen",
-    text: "NSF Career and Young Investigator Awards",
+    text: "Young  Awards",
     linkCopy: "more",
     image: "https://source.unsplash.com/uNyF_FXn4qw/1500x1500",
     link: "highlights3"
@@ -80,7 +81,7 @@ export const panels = [
     title: "Professor",
     firstname: "<div>Yahya</div>",
     name: "Rahmat-Samii",
-    text: "New Book and Best Paper Award of AIAA",
+    text: "New Book AIAA",
     linkCopy: "more",
     image: "https://source.unsplash.com/3cIPFNW3wog/1500x1500",
     link: "highlights6"
@@ -90,7 +91,7 @@ export const panels = [
     title: "Alumni ",
     firstname: "Adrian",
     name: "Tang",
-    text: "Recognized as 2021 Outstanding Young Engineer by IEEE MTT-S",
+    text: "Recognized as Young",
     linkCopy: "more...",
     image: "https://source.unsplash.com/Hjez0AY_c4k/1500x1500",
     link: "news5"

@@ -17,10 +17,10 @@ function usePanel(active) {
       mouseX: undefined,
       mouseY: undefined
     };
-    console.log('React useEffect state:', state)
+    // console.log('React useEffect state:', state)
 
     let el = ref.current;
-    console.log('React useEffect el:', el)
+    // console.log('React useEffect el:', el)
 
     const handleMouseMove = (e) => {
       if (!el) {
@@ -44,7 +44,7 @@ function usePanel(active) {
       el.removeEventListener("mousemove", handleMouseMove);
     };
   }, [active]);
-  console.log('React useEffect return ref::', ref)
+  // console.log('React useEffect return ref::', ref)
 
   return ref;
 }
@@ -73,7 +73,7 @@ const panelReducer = (state, event) => {
 function Panel({ panel, offset }) {
   const active = offset === 0 ? true : null;
   const ref = usePanel(active);
-  //receive a single object form data.panels
+  //receive a single object FROM data.panels
 
   return (
     <div
@@ -84,7 +84,7 @@ function Panel({ panel, offset }) {
         backgroundImage: `url(${panel.image})`
       }}
     >
-      <BrowserRouter basename="/2020-2021"/>
+      <BrowserRouter/>
         <div className="panelContent">
           <div className="panelTextBox">
             <div className="panelTitle">{panel.title}</div>
