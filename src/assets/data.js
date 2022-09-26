@@ -28,101 +28,60 @@ export const logos = {
 export const panels = [
   {
     id: "0",
-    title: "Professor",
-    firstname: "Suhas",
-    name: "Diggavi",
-    text: "Facebook and Amazon",
+    title: "Asst. Professor",
+    firstname: "Yuan",
+    name: "Tian",
+    text: "new faculty",
     linkCopy: "more",
-    image: "https://source.unsplash.com/6k2wkqGMw1I/1500x1500",
-    link: "highlights1"
+    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
+    link: "news2"
   },
   {
     id: "1",
     title: "Professor",
-    firstname: "Jackie",
-    name: "Tran",
+    firstname: "Mona",
+    name: "Jarrahi",
     text: 'Award and Feature',
     linkCopy: "more",
-    image: "https://source.unsplash.com/7FOSJVtUtac/1500x1500",
-    link: "highlights2"
+    image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
+    link: "highlights1"
   },
   {
     id: "2",
     title: "Professor",
-    firstname: "<div>Xiang </br>Anthony</div>",
-    name: "Chen",
-    text: "Young  Awards",
+    firstname: "Dejan",
+    name: "Markovic",
+    text: "Markovic",
     linkCopy: "more",
-    image: "https://source.unsplash.com/uNyF_FXn4qw/1500x1500",
-    link: "highlights3"
+    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
+    link: "highlights2"
   },
   {
     id: "3",
     title: "Professor ",
-    firstname: "Sam",
-    name: "Emaminejad",
-    text: 'Research Featured on Cover of "Lab on a Chip"',
+    firstname: "Frank",
+    name: " Chang",
+    text: ' Frank chang',
     linkCopy: "more",
-    image: "https://source.unsplash.com/Xf071ws2Icg/1500x1500",
-    link: "highlights4"
+    image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
+    link: "highlights3"
   },
   {
     id: "4",
-    title: "Professor",
-    firstname: "Kang",
-    name: "Wang",
-    text: "NSF Grant to Improve </br>Quantum Computing Chips",
+    title: "Professor ",
+    firstname: "Asad",
+    name: "Madni",
+    text: ' Asad Madni does it again',
     linkCopy: "more",
-    image: "https://source.unsplash.com/KJ241ZAOYwU/1500x1500",
-    link: "highlights5"
-  },
-  {
-    id: "5",
-    title: "Professor",
-    firstname: "<div>Yahya</div>",
-    name: "Rahmat-Samii",
-    text: "New Book AIAA",
-    linkCopy: "more",
-    image: "https://source.unsplash.com/3cIPFNW3wog/1500x1500",
-    link: "highlights6"
-  },
-  {
-    id: "6",
-    title: "Alumni ",
-    firstname: "Adrian",
-    name: "Tang",
-    text: "Recognized as Young",
-    linkCopy: "more...",
-    image: "https://source.unsplash.com/Hjez0AY_c4k/1500x1500",
-    link: "news5"
-  },
-  {
-    id: "7",
-    title: "Alumna",
-    firstname: "Kat",
-    name: "Echazarreta ",
-    text: "Inspiring Others through Work at NASA's JPL",
-    linkCopy: "more...",
-    image: "https://source.unsplash.com/Ljz_Wmk7t7g/1500x1500",
-    link: "news6"
-  },
+    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
+    link: "highlights4"
+  }
+
 
 ];
 
     /* unsplash:
-    girl in sound booth: X-etICbUKec
-    light cube: KJ241ZAOYwU
-    bubble: 6k2wkqGMw1I
-    phone and pen: SgmhqvhBIKg
-    solar panel: HCha-UHkIg8
-    iwatch: uNyF_FXn4qw
-    Toyota concept car: 161u7xxBRI4
-    student lab: fr5h_07OrPI
-    engineer laptop: Hjez0AY_c4k
-    propulsion i_14EbINjKY
-    sound studio: wFW4zlulBT8 --aiello
-    radar antenna: 3cIPFNW3wog
-    arm cast: 13g9FZqVvNY
-    Kenedy Space Ctr: Ljz_Wmk7t7g
-    chip: Xf071ws2Icg
+    lines: xnqVGsbXgV4
+    lamps: fmCtPQhQksw
+
     */

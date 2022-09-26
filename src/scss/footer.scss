@@ -1,12 +1,10 @@
 @charset "utf-8";
 @import "./variables.scss";
 
-
-
 .site-footer{
   display: flex;
   background-color:$darkblue;
-  opacity: 0.9;
+  opacity: 0.6;
   height: 45px;
   width: 100%;
   bottom: 0;
@@ -14,12 +12,12 @@
   justify-content: space-between;
   align-items: center;
   flex: 0 1 100%;
-        z-index: 20;
+  z-index: 20;
 
   .footer-logo{
     display: flex;
     align-self: center;
-    // padding-top: 0.3em;
+    padding-top: 0.3em;
     padding-left: 3em;
     img {
       max-width: 170px;

@@ -5,7 +5,7 @@ table{
   border-collapse: collapse;
   width: 100%;
   min-width: 350px;
-  background-color: white;
+  background-color: $white;
   vertical-align: center;
 }
 
@@ -21,7 +21,7 @@ tr th {
 }
 td {
   font-family: 'Oswald', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2em;
   color: $black-70;
   align-self: center;

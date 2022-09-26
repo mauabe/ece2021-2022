@@ -1,10 +1,6 @@
 @charset "utf-8";
 @import "./variables.scss";
 
-// font-family: 'Oswald', sans-serif;  font-weight: 300,500,700;font-size: .7em;
-// font-family: 'Libre Caslon Text', serif;  font-weight:  400,400i,700;font-size: .7em;
-// font-family: 'Lemon', cursive; font-weight: 700;font-size: .7em;
-
 .article{
   display: flex;
   position: relative;
@@ -109,19 +105,19 @@
 
         .headline-lead {
           font-family: 'Oswald', sans-serif;
-          font-weight: 300;
+          font-weight: 200;
           font-size: 1.3em;
           color: $black-60;
         }
         .headline{
-          font-family: 'Quattrocento Sans', sans-serif;
+          font-family: 'Nova Square', sans-serif;
           font-weight: 700;
           font-size: 2.8em;
           // color: $ivy;
         }
         .subhead{
           font-family: 'Oswald', sans-serif;
-          font-weight: 300;
+          font-weight: 200;
           font-size: 1.8em;
           color: $black-60;
         }
@@ -152,7 +148,7 @@
         color: $black-95;
       }
       span.first-letter{
-        font-family: 'Grand Hotel', cursive, "Times", "Times New Roman";
+        font-family: 'Alfa Slab One', cursive, "Times", "Times New Roman";
         // initial-letter: 3 2;
         font-size: 2.5em;
         float: left;
@@ -165,7 +161,7 @@
 
   p > {
     span {
-      font-weight: bold;
+      font-weight: 400;
       font-style: italic;
     }
   }
@@ -204,7 +200,7 @@
 
   .caption{
     font-family: 'Oswald', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1em;
     padding: 1em 0 0 0 ;
   }
@@ -218,7 +214,7 @@
     .image-credits,
     .author-credits{
       font-family: 'Oswald', sans-serif;
-      font-weight: 300;
+      font-weight: 200;
       font-size: .8em;
 
     }

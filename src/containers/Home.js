@@ -63,8 +63,7 @@ const panelReducer = (state, event) => {
   if (event.type === "PREV") {
     return {
       ...state,
-      panelIndex:
-        state.panelIndex === 0 ? data.panels.length - 1 : state.panelIndex - 1
+      panelIndex: state.panelIndex === 0 ? data.panels.length - 1 : state.panelIndex - 1
     };
   }
 };
@@ -85,17 +84,16 @@ function Panel({ panel, offset }) {
       }}
     >
       <BrowserRouter/>
+      <Link to={`/news/${panel.link}`} >
         <div className="panelContent">
           <div className="panelTextBox">
             <div className="panelTitle">{panel.title}</div>
-            <div className="panelFirstName">{ReactHtmlParser(panel.firstname)}</div>
+            <div className="panelFirstName">{panel.firstname}</div>
             <div className="panelName">{panel.name}</div>
           </div>
             <div className="panelText">{ReactHtmlParser(panel.text)}</div>
         </div>
-          <Link to={`/news/${panel.link}`} >
-            <div className="panelLinkButton">more > > > </div>
-          </Link>
+      </Link>
     </div>
   );
 }

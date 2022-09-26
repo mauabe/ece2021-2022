@@ -2,13 +2,16 @@
 // @import "../config/paths.js";
 @import "./variables.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;500;700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bree+Serif&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nova+Square&family=Oswald:wght@200;400;700&display=swap');
 
 //use this to place font family in scss:
-// font-family: 'Grand Hotel', cursive;
-// font-family: 'Libre Caslon Text', serif;
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Quattrocento Sans', sans-serif;
+// font-family: 'Alfa Slab One', cursive;
+// font-family: 'Anton', sans-serif;
+// font-family: 'Bree Serif', serif;
+// font-family: 'Nova Square', cursive;
+// font-family: 'Libre Caslon Text', serif; font-weight: 0,400;0,700;1,400;
+// font-family: 'Oswald', sans-serif; font-weight: 200,400,700;
+
 
 html,
 body,
@@ -36,10 +39,11 @@ h6 {
   padding: 0;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   color: $black-80;
-  background-color: transparent;;
+  background-color: transparent;
+  box-sizing: border-box;
 }
 h3{
   font-family: 'Oswald', sans-serif;
@@ -64,17 +68,14 @@ p > {
   font-style: italic;
   }
 }
-
 ul {
   list-style: none;
 }
-
 input,
 select,
 textarea {
   margin: 0;
 }
-
 a{
   color: $black-40;
   text-decoration: none;
@@ -82,19 +83,8 @@ a{
     color: $berry;
   }
 }
-
-.App {
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  background-color: $background;
-  color: $peacock;
-  background-image: url("../assets/images/qbkl.png");
-  background-position: top left, center center;
-  background-attachment: fixed, fixed;
-  background-size: auto, auto;
-  min-height: 100vh;
-  margin: auto;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 .content-area, .page{
@@ -111,6 +101,23 @@ img.none {
 }
 .none {
   display: none;
+}
+
+
+.App {
+  // height: 100%;
+  align-items: center;
+  justify-content: center;
+  // background-color: $background;
+  background-color: aqua;
+  color: $peacock;
+  background-image: url("../assets/images/axiom.png");
+  // background-image: url("../assets/images/qbkl.png");
+  background-position: top left, center center;
+  background-attachment: fixed, fixed;
+  background-size: auto, auto;
+  min-height: 100vh;
+  margin: auto;
 }
 
 @media only screen and (max-width: 1250px) {
