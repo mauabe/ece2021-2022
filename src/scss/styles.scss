@@ -41,7 +41,7 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
-  color: $black-80;
+  color: $gray-80;
   background-color: transparent;
   box-sizing: border-box;
 }
@@ -49,13 +49,13 @@ h3{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 1.2em;
-  color: $ivy;
+  color: $ubatuba;
 }
 h2{
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 1em;
-  color: $ivy;
+  color: $ubatuba;
 }
 p {
   font-family: 'Libre Caslon Text', serif;
@@ -77,10 +77,10 @@ textarea {
   margin: 0;
 }
 a{
-  color: $black-40;
+  color: $gray-40;
   text-decoration: none;
   &:hover, &:active{
-    color: $berry;
+    color: $ubatuba;
   }
 }
 *, *:before, *:after {
@@ -108,11 +108,10 @@ img.none {
   // height: 100%;
   align-items: center;
   justify-content: center;
-  // background-color: $background;
-  background-color: aqua;
-  color: $peacock;
+  // background-color: IndianRed;
+  background-color: rgb(33,47,60);
+  color: $gray-40;
   background-image: url("../assets/images/axiom.png");
-  // background-image: url("../assets/images/qbkl.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;
   background-size: auto, auto;

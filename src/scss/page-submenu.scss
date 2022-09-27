@@ -10,9 +10,9 @@
   align-content: flex-start;
   margin: 0 12% 0 12%;
   border-radius: 6px 6px 0 0; //top box with rounded top corners
-  background: $ubatuba--70;
+  background-color: $background--80;
   background-image:  url("../assets/images/overlay.png");
-  border-bottom: 4px dashed $ivy;
+  // border-bottom: 4px dashed $ubatuba;
   transition: all .4s ease-in-out;
 
   .bubble-link {
@@ -28,8 +28,8 @@
         width: 4rem;
         height: 4rem;
         overflow: hidden;
-        background-color: $white;
-        border: 1px solid $ivy;
+        background-color: $gray-60;
+        border: 1px solid $ubatuba;
         border-radius: $border-radius;
         filter: grayscale(0.8);
         margin: 10px;
@@ -46,22 +46,22 @@
           font-family: 'Oswald', sans-serif;
           font-weight: 700;
           font-size: 0.9em;
-          color: $black-70;
+          color: $gray-40;
 
           &.active {
             transition: all .3s ease-in-out;
-            color: $berry;
+            color: $WhiteSmoke;
           }
         }
       }
 
     &.active {
       transition: all .3s ease-in-out;
-      color: $berry;
+      color: $ubatuba;
 
       .bubble-frame{
         transition: all .4s ease-in-out;
-        border: 1px solid $berry;
+        border: 1px solid $ubatuba;
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
         filter: grayscale(0.1);
       }
@@ -70,17 +70,17 @@
     &.bubble-link:focus,
     &.bubble-link:hover  {
       transition: all .3s ease-in-out;
-      color: $berry--70;
+      color: $gray-40;
 
       .bubble-frame{
-        border: 1px solid $berry--70;
+        border: 1px solid $ubatuba--70;
         box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.4);
         filter: brightness(0.8);
         transition: all .3s ease-in-out;
       }
       .bubble-text {
         transition: all .3s ease-in-out;
-        color: $berry--70;
+        color: $gray-60;
       }
     }
   } //end bubble-link

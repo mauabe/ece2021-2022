@@ -32,7 +32,7 @@
       min-width: 320px;
       min-height: 300px;
       border-radius: $border-radius;
-      border: 1px solid $black-60;
+      border: 1px solid $gray-60;
       background: $ubatuba--30;
       align-items: start;
       padding: 1.2em;
@@ -41,14 +41,14 @@
       .frame{
         justify-self: center;
         border-radius: $border-radius-half;
-        border: 1px solid $black-80;
+        border: 1px solid $gray-80;
         align-items: center;
         height: 190px;
         max-width: 150px;
         margin: 1em auto 1.5em auto;
         overflow: hidden;
         position: relative;
-        background-color: $white;
+        background-color: $gray-40;
 
         img.card-pic-fellowship{
           border: 0px ;
@@ -71,7 +71,7 @@
       img.logo-pic{
         border: 1px solid black  ;
         margin:0.4rem;
-        background-color: $white;
+        background-color: $gray-60;
         width: 95%;
         max-height: 190px;
         object-fit: contain;
@@ -97,7 +97,7 @@
       min-width: 320px;
       min-height: 200px;
       border-radius: $border-radius-half;
-      border: 1px solid $black-60;
+      border: 1px solid $gray-60;
       background: $ubatuba--30;
       align-items: center;
       padding: 1em;
@@ -156,7 +156,7 @@
       box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
       transition: all 0.3s ease-in-out;
       border-radius: $border-radius;
-      border: 1px solid $black-60;
+      border: 1px solid $gray-60;
       background: $ubatuba--30;
       align-items: start;
       padding: 1.2em;
@@ -185,7 +185,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 2.2em;
-    color: $ivy;
+    color: $ubatuba;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
     background: transparent;
@@ -195,7 +195,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
-    color: $ivy;
+    color: $ubatuba;
     text-align: center;
     margin: 2rem;
   }
@@ -203,7 +203,7 @@
     font-family: 'Alfa Slab One', serif;
     font-weight: 700;
     font-size: 1.85em;
-    color: $ivy;
+    color: $ubatuba;
     margin: 0 auto;
     text-align: center;
     line-height: 2.5;
@@ -212,7 +212,7 @@
     font-family: 'Nova Square', sans-serif;
     font-weight: 700;
     font-size: 1.4em;
-    color: $ivy;
+    color: $ubatuba;
     text-align: center;
     margin: 0.4em 0 0.2em;
   }
@@ -220,7 +220,7 @@
     font-family: 'Nova Square', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
-    color: $black-60;
+    color: $gray-60;
     text-align: center;
     margin-bottom: 0.2em;
   }
@@ -228,7 +228,7 @@
     font-family: 'Nova Square', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: $black-60;
+    color: $gray-60;
     text-align: center;
     margin-bottom: 0.2em;
   }
@@ -237,7 +237,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: .8em;
-    color: $black-60;
+    color: $gray-60;
     text-align: center;
     margin: 0 0 .9em 0;
   }
@@ -267,7 +267,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 200  ;
     font-size: .9em;
-    color: $black-60;
+    color: $gray-60;
     text-align: left;
     text-decoration: none;
   }
@@ -283,7 +283,7 @@
 
   .frame-book{
     margin: 1em auto 1.5em;
-    border: 1px solid $black-80;
+    border: 1px solid $gray-80;
     align-items: center;
     width: 150px;
     height: 190px;
@@ -295,7 +295,7 @@
     position: relative;
     display: none;
     transition: all 5.3s ease-in-out;
-    border: 1px solid $black-80;
+    border: 1px solid $gray-80;
     border-radius:  $border-radius-half;
     overflow: hidden;
     z-index: 10;
@@ -315,7 +315,7 @@
   .card-name{
     font-family: 'Alfa Slab One', sans-serif;
     font-size: 1.85em;
-    color: $ivy;
+    color: $ubatuba;
     text-justify: center;
     margin-bottom: 0.5em;
   }

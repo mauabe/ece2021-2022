@@ -3,7 +3,7 @@
 
 .site-footer{
   display: flex;
-  background-color:$darkblue;
+  background-color: $WhiteSmoke;
   opacity: 0.6;
   height: 45px;
   width: 100%;
@@ -31,6 +31,6 @@
     padding-left: 2em;
     font-size: .9rem;
     line-height: 1.2rem;
-    color: $greydark;
+    color: $gray-60;
   }
 }

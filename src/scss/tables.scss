@@ -5,8 +5,10 @@ table{
   border-collapse: collapse;
   width: 100%;
   min-width: 350px;
-  background-color: $white;
   vertical-align: center;
+  background-color: $DimGray;
+  background-image: url("../assets/images/y-so.png");
+  color:$Silver;
 }
 
 tr th {
@@ -16,18 +18,19 @@ tr th {
   text-indent: 0;
   padding: 1.5em;
   background-color: $menublue--70;
-  color:$white;
+  color:$Silver;
 
 }
 td {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
-  color: $black-70;
+  color: $Silver;
   align-self: center;
   padding: 0.7em;
   padding-left: 1.5em;
-  border-bottom: 1px solid $black-40;
+  border-bottom: 1px solid $gray-80;
+  background-color: $background--50;
 }
 td.right{
   text-align: right;
@@ -35,35 +38,35 @@ td.right{
 }
 tfoot tr{
   align-items: center;
-  background-color:$menublue--50;
+  background-color: $menublue--50;
   height: 1em;
 }
 
 tbody tr:hover {
-  background-color: $cardbottom ;
+  background-color: $background--50;
 }
 // tr:nth-child(even) {
-//   background-color: $black-20;
+//   background-color: $gray-20;
 // }
 
 tr.t-total{
-  background-color: $Gainsboro;
+  background-color: $ubatuba--30;
   &:hover{
-    background-color: lighten($Gainsboro, 10) ;
+    background-color: lighten($ubatuba--30, 10) ;
   }
 }
 tr.sub-head{
-  background-color: $LightSteelBlue;
+  background-color: $ubatuba--30;
 
   &:hover{
-    background-color: darken($LightSteelBlue, 10) ;
+    background-color: darken($ubatuba--30, 10) ;
   }
 }
 tr.sub-total{
-  background-color: darken($Gainsboro, 8);
+  background-color: darken($ubatuba--70, 8);
 
   &:hover{
-    background-color: lighten($Gainsboro, 5) ;
+    background-color: lighten($ubatuba--70, 5) ;
   }
 }
 

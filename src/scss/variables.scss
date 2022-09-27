@@ -3,101 +3,70 @@ $values: 0 0 100px;
 $border-radius: 4px;
 $border-radius-half: 2px;
 
-// $color-default: #F0F3F2;
-// $badass: #BADA55;
-$darkblue: #282c34;
+$dkblue: rgb(33,47,60);
 $white: white;
-$black: black;
+$gray: DarkGray;
 
 //used colors for ECE
-// $sweetleaf: #b1c7a3;
-$sweetleaf: #ABBDB4;
-$sweetleaf--30: rgba(171,189,180, .3);
-$sweetleaf--50: rgba(171,189,180, .5);
-$sweetleaf--70: rgba(171,189,180, .7);
-$juniper: #6f9081;
-$juniper--10: rgba(111, 144, 129, .1);
-$juniper--30: rgba(111, 144, 129, .3);
-$juniper--50: rgba(111, 144, 129, .5);
-$juniper--70: rgba(111, 144, 129, .7);
+// $juniper: #6f9081;
+// $juniper--10: rgba(111, 144, 129, .1);
+
 $ubatuba: #68766D;
-$ubatuba--10: rgba(104,118,109, .1);
+// $ubatuba--10: rgba(104,118,109, .1);
 $ubatuba--30: rgba(104,118,109, .3);
 $ubatuba--50: rgba(104,118,109, .5);
 $ubatuba--70: rgba(104,118,109, .7);
+// $ubatuba-menu: rgba(24,100,64, 1);
 
-$ivy: #4e5b4a;
-$ivy--30: rgba(78, 91, 74, .3);
-$ivy--50: rgba(78, 91, 74, .5);
-$ivy--60: rgba(78, 91, 74, .6);
-$ivy--70: rgba(78, 91, 74, .7);
-$orange2: #d07316;
-$peacock: #364d4b;
-$peacock--30: rgba(54, 77, 75, .3);
-$peacock--50: rgba(54, 77, 75, .5);
-$peacock--80: rgba(54, 77, 75, .8);
-$peacock--100: rgba(54, 77, 75, 1);
-$berry: rgb(134, 41, 97);
-$berry--50: rgba(134, 41, 97, .5);
-$berry--70: rgba(134, 41, 97, .7);
-$berry-menu: rgba(24,100,64, 1);
-$berry-menu--30: rgba(24,100,64, .3);
-$berry-menu--50: rgba(24,100,64,  .5);
-$berry-menu--70: rgba(24,100,64,  .7);
-$berry-menu--90: rgba(24,100,64,  .86);
 
-$menublue: rgb(17, 170, 161);
-$menublue--30: rgba(17, 170, 161, .3);
-$menublue--50: rgba(17, 170, 161, .5);
-$menublue--70: rgba(17, 170, 161, .7);
-$menublue--85: rgba(17, 170, 161, .85);
-// $borderblue: rgba(116, 141, 181, 1.00);
-// $borderblue--50: rgba(116, 141, 181, 0.5);
+// $menublue: rgb(17, 170, 161);
+$menublue--50: rgba(33, 47, 90, 0.5);
+$menublue--70: rgba(33, 47, 90, 0.7);
+$menublue--90: rgba(33, 47, 90, 0.0);
 // $borderblue2: #abcbd1;
-$page-submenu: #b7ad55;
+// $page-submenu: #b7ad55;
 
-$mercury: #e5e7e3;
-$gallery: #f1f1ef;
-$amazon: #0d4773;
-$jaguar: #2B2B2B;
-$Gainsboro: #DCDCDC;
-$Silver: 	#C0C0C0;
 $LightSteelBlue: #B0C4DE;
-$LightSlateGray: #778899;
+$SlateGray: #708090;
+// $background: #e7e5e3;
+// $mercury: #e5e7e3;
+// $amazon: #0d4773;
+// $jaguar: #2B2B2B;
+// $LightSlateGray: #778899;
 $DimGray: #696969;
+$gray-95: rgba(20,21,19,1.0);
+$gray-80: #2b2b2b;
+$gray-60: #646464;
+$gray-40: #949494;
+$gray-20: #DCDCDC;
+$gray-10: #EFF0EB;
+$Silver: 	#C0C0C0;
 $WhiteSmoke: #f5f5f5;
-$SlateGray: #778899;
+$grayverylight: #e8e7e7;
+$graylight: #d8d9d1;
 
-$background: #e7e5e3;
-$background-transparent--1: rgba(255,255,255,0.1);
-$background-transparent--2: rgba(255,255,255,0.2);
-$background-transparent--5: rgba(255,255,255,0.5);
-$background-transparent--8: rgba(255,255,255,0.8);
-$background-transparent--10: rgba(255,255,255,1);
-$black-95: rgba(20,21,19,1.0);
-$black-80: #2b2b2b;
-$black-70: #515151;
-$black-60: #646464;
-$black-40: #949494;
-$black-20: #cfcfcf;
-$black-10: #EFF0EB;
-$greydark: #777971;
-$greylight: #d8d9d1;
-$greyverylight: #e8e7e7;
-$cardtop: #b8c0b6;
-$cardbottom: #e1dfdb;
-$cardbottom2: #d6d5d2;
-$contentarea: #c9c9c2;
+$background--10: rgba(33, 47, 90, 0.1);
+$background--20: rgba(33, 47, 90, 0.2);
+$background--50: rgba(33, 47, 90, 0.5);
+$background--80: rgba(33, 47, 90, 0.8);
+$background--100: rgba(33, 47, 90,  1);
+$background: rgba(33, 47, 90, 1);
+
+
+
+// $cardbottom: #e1dfdb;
+// $cardtop: #b8c0b6;
+// $contentarea: #c9c9c2;
 
 // beige with transparency
 $beige-light--10: rgba(208, 209, 205, .1);
 $beige-light--30: rgba(208, 209, 205, .3);
-$beige-light--50: rgba(208, 209, 205, .5);
-$beige-lighter--40: rgba(239, 240, 235, .4);
-$beige-lighter--60: rgba(239, 240, 235, .6);
-$beige-lighter--80: rgba(239, 240, 235, .8);
+// $beige-light--50: rgba(208, 209, 205, .5);
+// $beige-lighter--40: rgba(239, 240, 235, .4);
+// $beige-lighter--60: rgba(239, 240, 235, .6);
+// $beige-lighter--80: rgba(239, 240, 235, .8);
 
-$grey-lighter--10:	rgba(	219, 219, 219, .1);
-$grey-lighter--30:	rgba(	219, 219, 219, .3);
-$grey-lighter--50:	rgba(	219, 219, 219, .5);
-$grey-lighter--80:	rgba(	219, 219, 219, .8);
+// $gray-lighter--10:	rgba(	219, 219, 219, .1);
+// $gray-lighter--30:	rgba(	219, 219, 219, .3);
+// $gray-lighter--50:	rgba(	219, 219, 219, .5);
+// $gray-lighter--80:	rgba(	219, 219, 219, .8);
