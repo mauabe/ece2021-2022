@@ -6,9 +6,9 @@ table{
   width: 100%;
   min-width: 350px;
   vertical-align: center;
-  background-color: $DimGray;
+  background-color: $gray-80;
   background-image: url("../assets/images/y-so.png");
-  color:$Silver;
+  color:$gray-50;
 }
 
 tr th {
@@ -17,20 +17,20 @@ tr th {
   font-size: 1.4em;
   text-indent: 0;
   padding: 1.5em;
-  background-color: $menublue--70;
-  color:$Silver;
+  background-color: $menublue--50;
+  color:$gray-50;
 
 }
 td {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
   font-size: 1.2em;
-  color: $Silver;
+  color: $gray-50;
   align-self: center;
   padding: 0.7em;
   padding-left: 1.5em;
   border-bottom: 1px solid $gray-80;
-  background-color: $background--50;
+  //background-color: $background--50;
 }
 td.right{
   text-align: right;
@@ -75,7 +75,7 @@ tr.sub-total{
   background-color: transparent;
   border-radius: $border-radius-half;
   align-items: start;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
+  box-shadow: $box-shadow;
   transition: all 0.3s;
   min-width: 350px;
   height: fit-content;

@@ -13,7 +13,6 @@
   .full {
     // grid-template-columns: 1fr ;
     grid-auto-flow: row;
-    // grid-column: span 1;
     align-content: start;
     grid-gap: 1em;
     justify-content: space-between;
@@ -131,12 +130,12 @@
       overflow: hidden;
       margin-bottom: 0.4em;
       transition: all 0.3s;
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
+      box-shadow: $box-shadow;
       border-radius: $border-radius-half;
       border: 1px solid  $ubatuba;
     }
     img.fac:hover{
-      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.30);
+      box-shadow: $box-shadow3;
     }
   }
 
@@ -160,18 +159,33 @@
       text-indent: 0;
       text-align: left;
 
-      img.research-logo{
-        background-color: white;
-        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
+      .research-logo-frame{
+        // position: relative;
+        // flex: 0 0 auto;
+        width: 9rem;
+        height: 9rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 200;
+        font-size: 0.6em;
+        color: $gray-80;
+        box-shadow: $box-shadow;
         transition: all 0.3s ease-in-out;
         width: 250px;
         height: 250px;
+        background-color: $gray-20;
         border-radius: $border-radius-half;
-        object-fit: cover;
-        object-position: 50% 50%;
         margin: 0 3em 1em 0;
-        overflow: hidden;
+
+        img.research-logo{
+          object-fit: cover;
+          object-position: 50% 50%;
+          overflow: hidden;
+        }
+        &:hover{
+            box-shadow: $box-shadow3;
+        }
       }
+
       .research-name{
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
@@ -187,12 +201,6 @@
         margin-bottom: 0.5em;
         text-indent: 0;
         text-align: left;
-      }
-
-      &:hover{
-        img.research-logo{
-          box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.40);
-        }
       }
     }
 

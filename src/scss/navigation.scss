@@ -12,10 +12,13 @@
     margin: 0 2rem;
     flex: none;
     position: fixed;
+    z-index: 25;
 
     .logo-image{
       width: 98px;
       height: auto;
+      // box-shadow: $box-shadow3;
+      filter: $drop-shadow;
     }
   }
 
@@ -44,11 +47,11 @@
 
       &:hover{
         transform: all .4s ease-out;
-        color: $WhiteSmoke;
+        color: $gray-10;
       }
       &:active{
         transform: all .4s ease-out;
-        color: $WhiteSmoke;
+        color: $gray-10;
       }
     }
 

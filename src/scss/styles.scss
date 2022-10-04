@@ -108,9 +108,10 @@ img.none {
   // height: 100%;
   align-items: center;
   justify-content: center;
-  // background-color: IndianRed;
-  background-color: rgb(33,47,60);
+  background-color: $gray-80;
   color: $gray-40;
+  // background-image: url("../assets/images/axiom.png");
+  // background-image:  linear-gradient($dkblue, $background--80, $dkblue);
   background-image: url("../assets/images/axiom.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;

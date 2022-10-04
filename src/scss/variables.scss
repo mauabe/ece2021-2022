@@ -1,15 +1,14 @@
 $val: 1;
 $values: 0 0 100px;
-$border-radius: 4px;
-$border-radius-half: 2px;
+$border-radius: 2px;
+$border-radius-half: 1px;
 
-$dkblue: rgb(33,47,60);
+$box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
+$box-shadow3: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.4);
+$drop-shadow: drop-shadow(1px 1px 4px rgba(208, 209, 205, .3));
+
+
 $white: white;
-$gray: DarkGray;
-
-//used colors for ECE
-// $juniper: #6f9081;
-// $juniper--10: rgba(111, 144, 129, .1);
 
 $ubatuba: #68766D;
 // $ubatuba--10: rgba(104,118,109, .1);
@@ -18,55 +17,39 @@ $ubatuba--50: rgba(104,118,109, .5);
 $ubatuba--70: rgba(104,118,109, .7);
 // $ubatuba-menu: rgba(24,100,64, 1);
 
-
-// $menublue: rgb(17, 170, 161);
+$dkblue: rgb(33,47,60);
+$menublue: rgb(17, 170, 161);
 $menublue--50: rgba(33, 47, 90, 0.5);
 $menublue--70: rgba(33, 47, 90, 0.7);
 $menublue--90: rgba(33, 47, 90, 0.0);
-// $borderblue2: #abcbd1;
-// $page-submenu: #b7ad55;
+// $amazon: #0d4773; //13 71 115
 
 $LightSteelBlue: #B0C4DE;
-$SlateGray: #708090;
-// $background: #e7e5e3;
-// $mercury: #e5e7e3;
-// $amazon: #0d4773;
-// $jaguar: #2B2B2B;
-// $LightSlateGray: #778899;
-$DimGray: #696969;
-$gray-95: rgba(20,21,19,1.0);
-$gray-80: #2b2b2b;
-$gray-60: #646464;
-$gray-40: #949494;
-$gray-20: #DCDCDC;
-$gray-10: #EFF0EB;
-$Silver: 	#C0C0C0;
-$WhiteSmoke: #f5f5f5;
-$grayverylight: #e8e7e7;
-$graylight: #d8d9d1;
 
+$gray-80: #2b2b2b; // 43 43 43
+$gray-60: #646464; // 100 100 100
+$gray-50: #C0C0C0;// 192 192 192;
+$gray-40: #949494; //148 148 148
+$gray-20: #DCDCDC; //220 220 220;
+$gray-10: #f5f5f5; // 245 245 245;
+
+// $gray-95: rgba(20,21,19,0.95);
+// $gray: #e7e7e7; //231 231 231
+// $mercury: #e5e7e3;
+// $jaguar: #2B2B2B;
+
+// $background: #e7e5e3;
 $background--10: rgba(33, 47, 90, 0.1);
 $background--20: rgba(33, 47, 90, 0.2);
 $background--50: rgba(33, 47, 90, 0.5);
 $background--80: rgba(33, 47, 90, 0.8);
-$background--100: rgba(33, 47, 90,  1);
-$background: rgba(33, 47, 90, 1);
-
-
-
-// $cardbottom: #e1dfdb;
-// $cardtop: #b8c0b6;
-// $contentarea: #c9c9c2;
+// $background--100: rgba(33, 47, 90,  1);
+// $background: rgba(33, 47, 90, 1);
 
 // beige with transparency
 $beige-light--10: rgba(208, 209, 205, .1);
 $beige-light--30: rgba(208, 209, 205, .3);
-// $beige-light--50: rgba(208, 209, 205, .5);
+$beige-light--70: rgba(208, 209, 205, .7);
 // $beige-lighter--40: rgba(239, 240, 235, .4);
 // $beige-lighter--60: rgba(239, 240, 235, .6);
 // $beige-lighter--80: rgba(239, 240, 235, .8);
-
-// $gray-lighter--10:	rgba(	219, 219, 219, .1);
-// $gray-lighter--30:	rgba(	219, 219, 219, .3);
-// $gray-lighter--50:	rgba(	219, 219, 219, .5);
-// $gray-lighter--80:	rgba(	219, 219, 219, .8);
