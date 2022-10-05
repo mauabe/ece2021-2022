@@ -7,8 +7,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0 12% 2em 12%;
-  background-color: $ubatuba--50;
-  // background-image:  url("../assets/images/overlay.png");
+  background-color: $background--20;
+  background-image:  url("../assets/images/overlay.png");
   overflow: hidden;
 
   .article-content{
@@ -37,9 +37,8 @@
         top: 0;
         height: 180px;
         width: 100%;
-        background: $menublue--50;
-        // background: linear-gradient(rgba(58, 76, 105, 0.7), rgba(52, 65, 105, 0.7));
-
+        background: $background--50;
+        background: linear-gradient(rgba(58, 76, 105, 0.7), rgba(52, 65, 105, 0.7));
         transition: all .3s ease-in-out;
         opacity:0.5;
 
@@ -101,25 +100,25 @@
         position: relative;
         margin-bottom: 3rem;
         font-size: 1rem;
-        color: $gray-20;
+        color: $gray-50;
 
         .headline-lead {
           font-family: 'Oswald', sans-serif;
           font-weight: 200;
           font-size: 1.3em;
-          color: $gray-40;
+          color: $gray-50;
         }
         .headline{
           font-family: 'Nova Square', sans-serif;
           font-weight: 700;
           font-size: 2.8em;
-          color: $gray-40;
+          color: $gray-50;
         }
         .subhead{
           font-family: 'Oswald', sans-serif;
           font-weight: 200;
           font-size: 1.8em;
-          color: $gray-40;
+          color: $gray-50;
         }
       }
     }
@@ -130,11 +129,10 @@
       font-weight: 400;
       font-size: 1em;
       padding: 2em;
-
       text-indent: 2em;
       line-height: 1.8;
       margin-top: -40px;
-      color: $gray-20;
+      color: $gray-50;
 
       span.text-body{
         font-family: "Libre Caslon Text", serif;

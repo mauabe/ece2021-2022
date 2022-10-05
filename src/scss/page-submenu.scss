@@ -9,10 +9,9 @@
   justify-content: space-evenly;
   align-content: flex-start;
   margin: 0 12% 0 12%;
-  border-radius: 6px 6px 0 0; //top box with rounded top corners
-  background-color: $background--80;
+  border-radius: 4px 4px 0 0; //top box with rounded top corners
+  background-color: $background--20;
   background-image:  url("../assets/images/overlay.png");
-  // border-bottom: 4px dashed $ubatuba;
   transition: all .4s ease-in-out;
 
   .bubble-link {
