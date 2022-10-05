@@ -201,7 +201,7 @@
   }
   .card-name{
     font-family: 'Alfa Slab One', serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.85em;
     color: $ubatuba;
     margin: 0 auto;
@@ -210,9 +210,9 @@
   }
   .prof-name{
     font-family: 'Nova Square', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.4em;
-    color: $ubatuba;
+    color: $gray-50;
     text-align: center;
     margin: 0.4em 0 0.2em;
   }
@@ -220,7 +220,7 @@
     font-family: 'Nova Square', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
-    color: $gray-60;
+    color: $gray-50;
     text-align: center;
     margin-bottom: 0.2em;
   }
@@ -228,7 +228,7 @@
     font-family: 'Nova Square', sans-serif;
     font-weight: 400;
     font-size: 1em;
-    color: $gray-60;
+    color: $gray-50;
     text-align: center;
     margin-bottom: 0.2em;
   }
@@ -237,7 +237,7 @@
     font-style: italic;
     font-weight: 400;
     font-size: .8em;
-    color: $gray-60;
+    color: $gray-50;
     text-align: center;
     margin: 0 0 .9em 0;
   }
@@ -267,7 +267,7 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 200  ;
     font-size: .9em;
-    color: $gray-60;
+    color: $gray-50;
     text-align: left;
     text-decoration: none;
   }
@@ -315,7 +315,7 @@
   .card-name{
     font-family: 'Alfa Slab One', sans-serif;
     font-size: 1.85em;
-    color: $ubatuba;
+    color: $gray-60;
     text-justify: center;
     margin-bottom: 0.5em;
   }

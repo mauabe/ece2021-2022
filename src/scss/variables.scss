@@ -5,7 +5,8 @@ $border-radius-half: 1px;
 
 $box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
 $box-shadow3: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.4);
-$drop-shadow: drop-shadow(1px 1px 4px rgba(208, 209, 205, .3));
+$drop-shadow: drop-shadow(1px 1px 0 rgba(255, 255, 255, .5));
+$drop-shadow3: drop-shadow(3px 3px 3px rgba(255, 255, 255, .5));
 
 
 $white: white;
@@ -39,12 +40,11 @@ $gray-10: #f5f5f5; // 245 245 245;
 // $jaguar: #2B2B2B;
 
 // $background: #e7e5e3;
-$background--10: rgba(33, 47, 90, 0.1);
-$background--20: rgba(33, 47, 90, 0.2);
-$background--50: rgba(33, 47, 90, 0.5);
-$background--80: rgba(33, 47, 90, 0.8);
-// $background--100: rgba(33, 47, 90,  1);
-// $background: rgba(33, 47, 90, 1);
+$background--10: rgba(59, 100, 135, 0.1);
+$background--20: rgba(59, 100, 135, 0.2);
+$background--50: rgba(59, 100, 135, 0.5);
+$background--80: rgba(59, 100, 135, 0.8);
+$background: rgba(59, 100, 135, 1);
 
 // beige with transparency
 $beige-light--10: rgba(208, 209, 205, .1);
