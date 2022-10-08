@@ -3,17 +3,16 @@ import ReactDOM from 'react-dom';
 import '../src/scss/styles.scss';
 import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
-// import {Router} from 'react-router';
-import {BrowserRouter} from 'react-router-dom';
+import {Router} from 'react-router';
+// import {BrowserRouter} from 'react-router-dom';
 import {createBrowserHistory} from "history";
 
 const history = createBrowserHistory({basename:"/2021-2022"});
 
 ReactDOM.render(
-  <BrowserRouter basename="/2021-2022" history={history} >
-  {/* <Router history={history} > */}
+  <Router basename="/2021-2022" history={history} >
     <App />
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );
 

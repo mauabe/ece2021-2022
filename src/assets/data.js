@@ -1,5 +1,5 @@
 export const topMenu = [
-  ['news', 'Department News'],
+  ['intro', 'Intro'],
   ['highlights', 'Faculty Highlights'],
   ['students', 'Students & Teaching'],
   ['faculty', 'ECE Faculty'],
@@ -8,10 +8,11 @@ export const topMenu = [
 ];
 
 export const subMenus = {
-  'news': ['news0', 'news1', 'news2', 'news3','news4', 'news5', 'news6', 'news7', 'news8'],
-  'highlights': ['highlight0', 'highlight1', 'highlight2', 'highlight3','highlight4', 'highlight5', 'highlight6'],
-  'students': ['students0', 'students1', 'students2', 'students3','students4', 'students5', 'students6'],
-  'faculty':['faculty0', 'faculty1', 'faculty2', 'faculty3','faculty4', 'faculty5', 'faculty6'],
+  'intro': ['intro0'],
+  'news': ['news0', 'news1', 'news2', 'news3','news4'],
+  'highlights': ['highlight0', 'highlight1', 'highlight2', 'highlight3','highlight4'],
+  'students': ['students0', 'students1', 'students2', 'students3','students4'],
+  'faculty':['faculty0', 'faculty1', 'faculty2', 'faculty3','faculty4'],
   'overview':['overview0', 'overview1', 'overview2', 'overview3'],
   'alumni':['alumni0', 'alumni1', 'alumni2', 'alumni3', 'alumni4']
 }
@@ -22,66 +23,68 @@ export const logos = {
   "uclaecewhite": "/img/UCLA_ECE_WHITE.svg",
   "ecewhite": "/img/ECE_WHITE.svg",
   "ece": "/img/ECE.png",
+  "uclaece": "/img/ECE.svg",
 };
 
 
 export const panels = [
   {
-    id: "0",
+    id: "yuantian",
     title: "Asst. Professor",
-    firstname: "Yuan",
-    name: "Tian",
+    firstName: "Yuan",
+    lastName: "Tian",
     text: "new faculty",
-    linkCopy: "more",
+    linkText: "more",
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
-    link: "news2"
+    link: "highlights/yuantian"
   },
   {
-    id: "1",
+    id: "monajarrahi",
     title: "Professor",
-    firstname: "Mona",
-    name: "Jarrahi",
+    firstName: "Mona",
+    lastName: "Jarrahi",
     text: 'Award and Feature',
-    linkCopy: "more",
+    linkCopy: "much much more",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
-    link: "highlights1"
+    link: "highlights/jarrahi"
   },
   {
-    id: "2",
+    id: "dejanmarkovic",
     title: "Professor",
-    firstname: "Dejan",
-    name: "Markovic",
+    firstName: "Dejan",
+    lastName: "Markovic",
     text: "Markovic",
-    linkCopy: "more",
+    linkText: "more",
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
-    link: "highlights2"
+    link: "highlights/markovic"
   },
   {
-    id: "3",
+    id: "frankchang",
     title: "Professor ",
-    firstname: "Frank",
-    name: " Chang",
-    text: ' Frank chang',
-    linkCopy: "more",
+    firstName: "Frank",
+    lastName: " Chang",
+    text: "Frank Chang Does It",
+    linkText: "more",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
-    link: "highlights3"
+    link: "highlights/chang"
   },
   {
-    id: "4",
+    id: "asadmadni",
     title: "Professor ",
-    firstname: "Asad",
-    name: "Madni",
+    firstName: "Asad",
+    lastName: "Madni",
     text: ' Asad Madni does it again',
-    linkCopy: "more",
+    linkText: "Madni's accomplishments",
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
-    link: "highlights4"
+    link: "highlights/madni"
   }
-
 
 ];
 
     /* unsplash:
     lines: xnqVGsbXgV4
     lamps: fmCtPQhQksw
+
+
 
     */

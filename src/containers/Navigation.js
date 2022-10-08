@@ -12,7 +12,7 @@ class Navigation extends Component{
 		super(props);
 	  this.state = {
       pageView: '',
-      logoPick: ece,
+      logoPick: uclaece,
     }
 		// console.log('%c PROPS at NAVIGATION constructor', 'color:black;background:magenta;padding:6px;border:1px dashed black', this.props)
   }
@@ -25,6 +25,7 @@ class Navigation extends Component{
     if (components.indexOf('faculty') !== -1) this.setState ({pageView: 'faculty'});
     if (components.indexOf('overview') !== -1) this.setState ({pageView: 'overview'});
     if (components.indexOf('alumni') !== -1) this.setState ({pageView: 'alumni'});
+    if (components.indexOf('') !== -1) this.setState ({pageView: ''});
 
     if(this.state.pageView === ""){
       this.setState({logoPick: uclaece});

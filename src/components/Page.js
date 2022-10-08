@@ -73,7 +73,6 @@ class Page extends Component{
     )
   }
 
-
   // renamed bubbles class name to page-submenu
   render() {
 
@@ -82,7 +81,7 @@ class Page extends Component{
         <div className="page-submenu">
           {this.renderPageSubmenu()}
         </div>
-          {this.renderArticle()}
+        {this.renderArticle()}
       </div>
     );
   }

@@ -7,7 +7,7 @@ table{
   min-width: 350px;
   vertical-align: center;
   background-color: $gray-80;
-  background-image: url("../assets/images/y-so.png");
+  background-image: url("../assets/images/y-so-a.png");
   color:$gray-50;
 }
 
@@ -17,7 +17,7 @@ tr th {
   font-size: 1.4em;
   text-indent: 0;
   padding: 1.5em;
-  background-color: $menublue--50;
+  background-color: $background--50;
   color:$gray-50;
 
 }
@@ -38,7 +38,7 @@ td.right{
 }
 tfoot tr{
   align-items: center;
-  background-color: $menublue--50;
+  background-color: $background--50;
   height: 1em;
 }
 
@@ -95,4 +95,4 @@ ul, li, .card-bottom{
   }
 
 }
-@import "./grid-cards.scss";
+// @import "./grid-cards.scss";

@@ -7,9 +7,12 @@ import {Link} from 'react-router-dom';
 class Logos extends Component {
   constructor(props) {
 		super(props);
-	  this.state = {}
+	  this.state = {
+      pageView: '',
+      logoPick: 'ece',
+    }
     // console.log('%c PROPS at LOGOS constructor', 'color:black;background:orange;padding:6px;border:4px dashed yellow', this.props )
-  //   //LOGOS should receive {logoPick, pageView} as PROPS
+    //LOGOS should receive {logoPick, pageView} as PROPS
 	}
 
   render(){

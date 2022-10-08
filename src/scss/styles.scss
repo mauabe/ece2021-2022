@@ -39,7 +39,7 @@ h6 {
   padding: 0;
   font-family: "Oswald", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 200;
   text-decoration: none;
   color: $gray-80;
   background-color: transparent;
@@ -86,16 +86,6 @@ a{
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-.content-area, .page{
-  display: flex;
-  flex-direction: column;
-}
-
-.spacer{
-  margin: 1rem 0;
-}
-
 img.none {
   display: none;
 }
@@ -103,6 +93,13 @@ img.none {
   display: none;
 }
 
+.spacer{
+  margin: 1rem 0;
+}
+.content-area{
+  display: flex;
+  flex-direction: column;
+}
 
 .App {
   // height: 100%;
@@ -110,7 +107,6 @@ img.none {
   justify-content: center;
   background-color: $gray-80;
   color: $gray-40;
-  // background-image: url("../assets/images/axiom.png");
   // background-image:  linear-gradient($dkblue, $background--80, $dkblue);
   background-image: url("../assets/images/axiom.png");
   background-position: top left, center center;
@@ -151,5 +147,6 @@ img.none {
 @import "./page-submenu.scss";
 @import "./footer.scss";
 @import "./navigation.scss";
-@import "./mixins.scss";
 @import "./home.scss";
+
+@import "./mixins.scss";

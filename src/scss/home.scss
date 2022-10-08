@@ -2,50 +2,65 @@
 @import "./variables.scss";
 
 
-// classes in use: content-area > panelsContainer > panel > panel${id} > panelContent > panelTitle, panelName, panelText, panelLinkButton
+// classes in use: content-area > panelImage > panelsContainer > panel > panel${id} > panelContent > panelTitle, panelName, panelText, panelLinkButton
+
 
 .panelsContainer {
   display: flex;
   flex: 1 1 100%;
-  min-height: 85vh;
-  overflow: hidden;
+  min-height: 87vh;
   flex-direction: row;
-  flex-wrap: no-wrap;
+  position: relative;
+  // background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
+
 
 
   .panel{
-    font-size: 0.9rem;
     display: flex;
-    flex: 1 1 100%;
-    flex-direction: column;
-    margin: 0;
-    max-width: 12.5%;
-    min-width: 11%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    filter: grayscale(0.85);
-    position: relative;
+    flex: 1 1 auto;
+    z-index: 20;
     transition:
-      min-width 0.3s ease-in-out 0.3s,
-      opacity 0.5s ease-in-out 0.3s,
-      filter 0.3s ease-in-out 0.3s,
-      font-size 0.7s cubic-bezier(0.6,-0.5, 0.7,-0.1),
-      flex 0.7s cubic-bezier(0.6,-0.5, 0.7,-0.1);
+    // min-width 0.3s ease-in-out 0.3s,
+    opacity 0.5s ease-in-out 0.3s,
+    filter 0.3s ease-in-out 0.3s;
+
+    .panelImage{
+      top: 0;
+      width: 100vw;
+      height: 87vh;
+      background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
+      background-color: teal;
+      opacity: 80%;
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      flex-wrap: no-wrap;
+      overflow: hidden;
+      filter: grayscale(0.85);
+      z-index: 5;
+      display: none;
+    }
+
     .panelContent {
       display: flex;
+      margin: 1em 2em 1em 2em;
+      min-height: 10%;
+      max-height: 200px;
+      background-image: radial-gradient($background--80, $dkblue);
       flex: 1 1 100%;
-      top: 45%;
+      top: 0;
       position: absolute;
-      margin: 0 0.5em 0 1em;
+      margin:  1em 0 1em 2.5em;
       align-items: flex-start;
       flex-direction: column;
+
       .panelTextBox{
         display: flex;
         flex-direction: column;
-        min-width: 5rem;
-        max-width: 10rem;
         margin: 0;
+        // min-width: 5rem;
+        // max-width: 10rem;
+
         .panelTitle, .panelFirstName {
           display: flex;
           flex: 1 1 100%;
@@ -54,7 +69,7 @@
           letter-spacing: 0.1ch;
           text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
-        .panelName {
+        .panelLastName {
           display: flex;
           color: $LightSteelBlue;
           flex: 1 1 100%;
@@ -62,12 +77,12 @@
           font-size: 1.8em;
           // font-weight: 200;
           // margin: 0.2em 0;
-          text-shadow: 0 4px 10px rgba(0, 0, 0, 0.72);
+          text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
       }
       .panelText {
         display: flex;
-        max-width: 6rem;
+        // max-width: 6rem;
         line-height: 1.4;
         font-family:'Nova Square', sans-serif;
         font-size: 1.3em;
@@ -76,41 +91,31 @@
         margin: 0;
         padding: 0.5em 1em 0.5em 0;
       }
+      .linkText {
+        font-family:'Nova Square', sans-serif;
+        font-size: 1em;
+        color: $gray-20;
+        background-color: $gray-80;
+        transition:
+          color 0.3s ease-in-out 0.3s,
+          background-color 0.3s ease-in-out 0.3s;
+
+        &:hover{
+          color: $gray-40;
+          background-color: $menublue;
+        }
+      }
     } //end panelContent
 
-    .panelLinkButton{
-      display: flex;
-      bottom: 12%;
-      font-family:'Nova Square', sans-serif;
-      // font-weight: 700;
-      width: 5em;
-      height: 1.3em;
-      opacity: 0;
-      background-color: orange;
-      position: absolute;
-      margin: 0 1em;
-      padding: 1em;
-      align-items: center;
-
-      @media only screen and (max-width: 600px) {
-          opacity: 0;
-          background-color: transparent;
-          color: transparent;
-      }
-    }
     &:hover{
-      transition: filter 0.3s, min-width 0.3s ease-in-out 0.3s;
-      filter: grayscale(0.01);
-      min-width: 14%;
+      transition: filter 0.3s, min-height 0.3s ease-in-out 0.3s;
+      filter: grayscale(0.05);
 
       .panelText{
         transition: opacity 0.3s ease-in-out 0.3s;
         opacity: 1;
       }
-      .panelLinkButton {
-        transition: opacity 1.5s ease-in-out 0.3s;
-        opacity: 1;
-      }
+
     }
   } // end of .panel
 } //end panelsContainer
@@ -124,9 +129,7 @@
   .panelsContainer{
     flex-direction: column;
     .panel {
-      // font-size: 0.7em;
       flex-direction: row;
-      max-width: 100%;
       max-height: 14%;
       filter: grayscale(0.01);
       .panelContent {
@@ -134,26 +137,14 @@
         flex-direction: row;
         margin: 0 0 0 5rem;
         .panelTextBox{
-          min-width: 9rem;
           margin: 0;
         }
         .panelText {
-          min-width: 9rem;
-          max-width: 15rem;
           top: 2rem;
           margin: 0;
           opacity: 1;
         }
       }
-      .panelLinkButton {
-        max-height: 1.0em;
-        font-size: .9em;
-        top: 2rem;
-        right: 4rem;
-        opacity: 1;
-        margin: 0;
-        z-index: 20;
-       }
 
       &:hover{
         transition: filter 0.3s ease-in-out 0.3s;

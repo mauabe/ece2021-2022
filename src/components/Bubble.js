@@ -16,8 +16,10 @@ class Bubble extends Component{
   }
 
   render() {
+
     const {pageView, articleId, articleSelection,  articleImageProf, articleImageAltTextProf, bubbleTextOne, bubbleTextTwo, bubbleTextThree, articleAuthor} = this.props ;
-    const activeClassNameCheck = ( articleSelection === articleId) ? `${articleId} active`: `${articleId}`;
+
+    const activeClassNameCheck = ( articleSelection === articleId) ? "active" + articleId : articleId;
 
     return (
       <NavLink
@@ -35,7 +37,7 @@ class Bubble extends Component{
               className={`bubble-image ${activeClassNameCheck}`}
             />
           </div >
-          <div className="bubble-text-link">
+          <div className={`bubble-text-link ${activeClassNameCheck}`}>
             <div className={`bubble-text ${activeClassNameCheck}`}>{ReactHtmlParser(bubbleTextOne)} </div>
             <div className={`bubble-text ${activeClassNameCheck}`}>{bubbleTextTwo}</div>
             <div className={`bubble-text ${activeClassNameCheck}`}>{bubbleTextThree}</div>

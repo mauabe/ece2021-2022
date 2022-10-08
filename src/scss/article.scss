@@ -19,13 +19,13 @@
       display: block;
       position: relative;
       top: 0;
-      height: 180px;
+      height: 100px;
       width: 100%;
 
       img.article-main-photo {
         position: relative;
         top: 0;
-        height: 180px;
+        height: 100px;
         width: 100%;
         object-position: 50% 50%;
         object-fit: cover;
@@ -35,9 +35,9 @@
       .overlay {
         position: absolute;
         top: 0;
-        height: 180px;
+        height: 100px;
         width: 100%;
-        background: $background--50;
+        // background: $background--50;
         background: linear-gradient(rgba(58, 76, 105, 0.7), rgba(52, 65, 105, 0.7));
         transition: all .3s ease-in-out;
         opacity:0.5;
@@ -106,19 +106,19 @@
           font-family: 'Oswald', sans-serif;
           font-weight: 200;
           font-size: 1.3em;
-          color: $gray-50;
+          // color: $gray-50;
         }
         .headline{
           font-family: 'Nova Square', sans-serif;
-          font-weight: 700;
+          font-weight: 400;
           font-size: 2.8em;
-          color: $gray-50;
+          // color: $gray-50;
         }
         .subhead{
           font-family: 'Oswald', sans-serif;
           font-weight: 200;
-          font-size: 1.8em;
-          color: $gray-50;
+          font-size: 1.6em;
+          // color: $gray-60;
         }
       }
     }
@@ -145,13 +145,16 @@
       a{
         color: $gray-20;
       }
-      span.first-letter{
-        font-family: 'Alfa Slab One', cursive, "Times", "Times New Roman";
-        // initial-letter: 3 2;
-        font-size: 2.5em;
+
+      p:first-of-type:first-letter {
+        font-family: 'Alfa Slab One', cursive, 'courier';
         float: left;
-        margin: -0.2em .4em 0 0;
-        color: $gray-50;
+        font-size: 75px;
+        line-height: .6;
+        color: $menublue--30;
+        text-shadow: $gray-40 .07em .07em;
+        margin-right: 20px;
+        // margin: 0 22px 0 0;
         text-indent: 0;
       }
     }
@@ -159,7 +162,7 @@
 
   p > {
     span {
-      font-weight: 400;
+      // font-weight: 400;
       font-style: italic;
     }
   }
