@@ -16,10 +16,12 @@ $ubatuba: #68766D;
 $ubatuba--30: rgba(104,118,109, .3);
 $ubatuba--50: rgba(104,118,109, .5);
 $ubatuba--70: rgba(104,118,109, .7);
-// $ubatuba-menu: rgba(24,100,64, 1);
+$ubatuba--90: rgba(104,118,109, .9);
+$ubatuba-menu: rgba(24,100,64, 1);
 
 $dkblue: rgb(33,47,60);
 $menublue: rgb(17, 170, 161);
+$menublue--30: rgba(33, 47, 90, 0.3);
 $menublue--50: rgba(33, 47, 90, 0.5);
 $menublue--70: rgba(33, 47, 90, 0.7);
 $menublue--90: rgba(33, 47, 90, 0.0);
@@ -34,14 +36,15 @@ $gray-40: #949494; //148 148 148
 $gray-20: #DCDCDC; //220 220 220;
 $gray-10: #f5f5f5; // 245 245 245;
 
-// $gray-95: rgba(20,21,19,0.95);
-// $gray: #e7e7e7; //231 231 231
-// $mercury: #e5e7e3;
+$gray-95: rgba(20,21,19,0.95);
+$gray: #e7e7e7; //231 231 231
+$mercury: #e5e7e3;
 // $jaguar: #2B2B2B;
 
 // $background: #e7e5e3;
 $background--10: rgba(59, 100, 135, 0.1);
 $background--20: rgba(59, 100, 135, 0.2);
+$background--40: rgba(59, 100, 135, 0.4);
 $background--50: rgba(59, 100, 135, 0.5);
 $background--80: rgba(59, 100, 135, 0.8);
 $background: rgba(59, 100, 135, 1);

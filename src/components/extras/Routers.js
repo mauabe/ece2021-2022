@@ -1,5 +1,6 @@
-import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+// import React, {Component} from 'react';
+// import { Router, Route, Link, NavLink } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 // import { CSSTransition } from 'react-transition-group';
 // import Home from './pages/home'
 // import About from './pages/about'
@@ -7,20 +8,20 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 // import './styles.css'
 
 
-class Routers extends Component (){
+// class Routers extends Component (){
 
   // const routes = [
-  //   { path: '/', name: 'News', Component: News },
-  //   { path: '/highlights', name: 'About', Component: About },
-  //   { path: '/contact', name: 'Contact', Component: Contact },
+  //   { path: '/news', name: 'News', Component: News },
+  //   { path: '/highlights', name: 'About', Component: Highlights },
+  //   { path: '/faculty', name: 'Contact', Component: Faculty },
+  //   { path: '/overview', name: 'overview', Component: Overview },
+  //   { path: '/alumni', name: 'Contact', Component: Alumni },
   //   { path: '/', name: 'Home', Component: Home },
-  //   { path: '/about', name: 'About', Component: About },
-  //   { path: '/contact', name: 'Contact', Component: Contact },
   // ]
 
- Example = () => {
-  return (
-    <Router>
+//  Example = () => {
+//   return (
+//     <Router>
     {/*
         <Navbar bg="light">
           <Nav className="mx-auto">
@@ -56,8 +57,8 @@ class Routers extends Component (){
           ))}
         </Container> */}
 
-    </Router>
-  )
-}
+//     </Router>
+//   )
+// }
 
-}
+// }

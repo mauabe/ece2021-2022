@@ -174,18 +174,14 @@
         transition: all 0.3s ease-in-out;
         box-shadow: $box-shadow3;
       }
-
-
     }
   }
-
-
 
   h3.page-title{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 2.2em;
-    color: $ubatuba;
+    color: $gray-40;
     text-indent: 0;
     margin: 0.5em 0 0.5em 0;
     background: transparent;
@@ -195,22 +191,22 @@
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     font-size: 1.5em;
-    color: $ubatuba;
+    color: $gray-60;
     text-align: center;
     margin: 2rem;
   }
+
   .card-name{
-    font-family: 'Alfa Slab One', serif;
-    font-weight: 400;
-    font-size: 1.85em;
-    color: $ubatuba;
-    margin: 0 auto;
-    text-align: center;
     line-height: 2.5;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 1.45em;
+    color: $gray-50;
+    text-align: center;
+    margin: 0.5em auto;
   }
+
   .prof-name{
     font-family: 'Nova Square', sans-serif;
-    font-weight: 400;
     font-size: 1.4em;
     color: $gray-50;
     text-align: center;
@@ -218,16 +214,7 @@
   }
   .prof-area{
     font-family: 'Nova Square', sans-serif;
-    font-weight: 400;
     font-size: 1.1em;
-    color: $gray-50;
-    text-align: center;
-    margin-bottom: 0.2em;
-  }
-  .card-advisor{
-    font-family: 'Nova Square', sans-serif;
-    font-weight: 400;
-    font-size: 1em;
     color: $gray-50;
     text-align: center;
     margin-bottom: 0.2em;
@@ -240,6 +227,13 @@
     color: $gray-50;
     text-align: center;
     margin: 0 0 .9em 0;
+  }
+  .card-advisor{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 1em;
+    color: $gray-60;
+    text-align: center;
+    margin-bottom: 0.2em;
   }
 
   .courses{
@@ -260,7 +254,6 @@
     text-align: justify;
     text-justify: inter-word;
   }
-
 
   li,
   .card-bottom > p{
@@ -310,14 +303,6 @@
   .card.book{
     object-position: 50% 50%;
     transition: all 0.3s ease-in-out;
-  }
-
-  .card-name{
-    font-family: 'Alfa Slab One', sans-serif;
-    font-size: 1.85em;
-    color: $gray-60;
-    text-justify: center;
-    margin-bottom: 0.5em;
   }
 
   p > {

@@ -28,7 +28,7 @@
         height: 4rem;
         overflow: hidden;
         background-color: $gray-60;
-        border: 1px solid $ubatuba;
+        // border: 1px solid $ubatuba;
         border-radius: $border-radius;
         filter: grayscale(0.8);
         margin: 10px;
@@ -37,6 +37,13 @@
           height: 100%;
           width: 100%;
           object-fit: cover;
+        }
+
+        &.active {
+          transition: all .4s ease-in-out;
+          border: 1px solid $ubatuba;
+          box-shadow: $box-shadow;
+          filter: grayscale(0.1);
         }
       }
 
@@ -49,27 +56,21 @@
 
           &.active {
             transition: all .3s ease-in-out;
-            color: $gray-10;
+            color: $gray-20;
+            text-shadow: $gray-80 .15em .15em;
           }
         }
-      }
 
-    &.active {
-      transition: all .3s ease-in-out;
-      color: $ubatuba;
-
-      .bubble-frame{
-        transition: all .4s ease-in-out;
-        border: 1px solid $ubatuba;
-        box-shadow: $box-shadow;
-        filter: grayscale(0.1);
+        &.active {
+          transition: all .3s ease-in-out;
+          color: $gray-20;
+        }
       }
-    }
 
     &.bubble-link:focus,
     &.bubble-link:hover  {
       transition: all .3s ease-in-out;
-      color: $gray-40;
+      color: $gray-50;
 
       .bubble-frame{
         border: 1px solid $ubatuba--70;
@@ -79,7 +80,7 @@
       }
       .bubble-text {
         transition: all .3s ease-in-out;
-        color: $gray-60;
+        color: $gray-50;
       }
     }
   } //end bubble-link
