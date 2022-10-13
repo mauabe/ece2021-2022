@@ -103,7 +103,7 @@ class Home extends Component{
             <div className="panelText">
               {ReactHtmlParser(panel.text)}
             </div>
-            <BrowserRouter/>
+            {/* <BrowserRouter/> */}
             <Link to={`/${panel.link}`} >
               <div className="linkText">
                 {panel.linkText}

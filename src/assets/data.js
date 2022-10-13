@@ -1,6 +1,5 @@
 export const topMenu = [
-  ['intro', 'Intro'],
-  ['highlights', 'Faculty Highlights'],
+  ['highlights', 'Highlights'],
   ['students', 'Students & Teaching'],
   ['faculty', 'ECE Faculty'],
   ['overview', 'Department Overview'],

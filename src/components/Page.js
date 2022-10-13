@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
-// import {NavLink, Router, Route, Switch, Redirect, Link } from "react-router-dom";
-
 import Bubble from './Bubble'
 import Article from './Article';
+
 
 //TODO: PROPTYPES
 //PROPS:
@@ -21,7 +20,7 @@ class Page extends Component{
      //articleId uses the same string value as articleSelection(which is also pathname).
 
      //TODO: Add pathname to article
-		// console.log('%c PROPS at Page constructor', 'color:black;background:pink;padding:6px;border:1px dashed red', this.props)
+		console.log('%c PROPS at Page constructor', 'color:black;background:pink;padding:6px;border:1px dashed red', this.props)
   }
 
   // sends articleId of bubble menu selected
