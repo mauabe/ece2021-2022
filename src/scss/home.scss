@@ -9,7 +9,7 @@
   height: 87vh;
   flex-direction: row;
   justify-content: space-around;
-  padding: 30vh 2em 0em 2em;
+  padding: 35vh 2em 0em 2em;
   // position: relative;
   // width: 100vw;
 
@@ -21,28 +21,27 @@
     z-index: 20;
     margin: 2em;
     color: gray-50;
-    // box-shadow: $box-shadow;
-    // filter: grayscale(0.85);
 
     // transition:
-      // min-width 0.3s ease-in-out 0.3s,
-      // opacity 0.5s ease-in-out 0.3s,
       // filter 0.3s ease-in-out 0.3s;
 
     .panelContent {
       display: flex;
-      flex: 1 0 15%;
+      flex: 1 0 18%;
       flex-direction: column;
-      height: 20vh;
-      background-image: radial-gradient($menublue--90, $dkblue);
-      align-items: stretch;
+      height: 25vh;
+      background-image: radial-gradient($menublue--95, $dkblue);
+      // align-items: stretch;
+      align-content: stretch;
       box-shadow: $box-shadow;
-      transition: all 0.1s ease-in-out;
+      transition: all 0.2s ease-in-out;
 
       .panelHead{
-        // display: flex;
-        // flex-direction: column;
+        display: flex;
+        flex: 1 0 auto;
+        flex-direction: column;
         margin: 1em;
+        padding: 1em 0;
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
@@ -58,43 +57,56 @@
           text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
       }
+
       .panelText {
-        // display: flex;
+        display: flex;
         color: grey-20;
         font-family:'Nova Square', sans-serif;
         font-size: 1.1em;
         margin: 1em;
-        // line-height: 1.4;
-        // opacity: 50%;
-        // text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
-                  // padding: 0.5em 1em 0.5em 0;
+        padding: 0 0 1em 0;
+        opacity: 0%;
+        visibility: none;
         &.showText{
+          color: grey-20;
           opacity: 100%;
           visibility: visible;
         }
       }
-      a.linkText {
+      .linkText {
+        display: flex;
+        float: right;
         margin: 1em;
-        align-self: flex-end;
-        font-family:'Nova Square', sans-serif;
-        font-size: 1em;
-        color: $gray-40;
+        padding: 1em;
+        color: $gray-20;
         background-color: $background--50;
         transition:
           color 0.3s ease-in-out,
           background-color 0.3s ease-in-out ;
 
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 48
+        }
         &:hover{
           color: $gray-20;
           background-color: $menublue;
         }
+
       }
-      &.hover{
-        color: gray-20;
+      &:hover{
+        //hover over panelContent, blue box
+        color: $gray-30;
         cursor:context-menu;
+        background-image: radial-gradient($menublue--90, $dkblue);
         box-shadow: $box-shadow5;
-        filter: drop-shadow($drop-shadow5);
-        box-shadow: red;
+        .panelText {
+          opacity: 100%;
+          visibility: visible;
+        }
       }
     } //end panelContent
 
@@ -106,10 +118,6 @@
     //   transition: opacity 0.3s ease-in-out 0.3s;
     // }
   } // end of panel
-
-    // &.active{
-    //   background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
-    // }
 } //end panel-content-area
 
 .yuantian{
