@@ -9,13 +9,12 @@ const Footer = () => {
   return (
     <div className=" site-footer ">
       <Link to={'/'}>
-        <div className=" footer-logo">
           <img
+          className="footer-logo"
             src={logoFooter}
             alt="UCLA Samueli School of Engineering"
             title="UCLA Samueli School of Engineering Logo"
           />
-        </div>
       </Link>
         <div className="footer-dept">
           Electrical and Computer Engineering Department - 2021-2022 Annual Report

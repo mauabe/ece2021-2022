@@ -14,18 +14,28 @@ class Page extends Component{
   constructor(props) {
 		super(props);
 	  this.state = {
-      articleSelection: this.props.articles[0].articleId
-     }
-     //defaults to first articleId at constructor
-     //articleId uses the same string value as articleSelection(which is also pathname).
+      articleSelection: this.props.articles[0].articleId,
+      transitionState: "in",
+      animationIn: "inAnimation 250ms ease-in",
+      animationOut: "outAnimation 270ms ease-out",
+      animationFillMode: "forwards"
+    }
+    //defaults to first articleId at constructor
+    //articleId uses the same string value as articleSelection(which is also pathname).
 
-     //TODO: Add pathname to article
-		console.log('%c PROPS at Page constructor', 'color:black;background:pink;padding:6px;border:1px dashed red', this.props)
+
+    //TODO: Add pathname to article
+		console.log('%c PROPS at Page constructor this.props::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.props )
+		console.log('%c PROPS at Page constructor articleSelection::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.state.articleSelection )
   }
+
+
 
   // sends articleId of bubble menu selected
   handleClick = (articleId) => {
-    this.setState(state => ({articleSelection: articleId}));
+    this.setState(state => ({
+      articleSelection: articleId
+    }));
   }
 
   //iterate over submenus and populate PAGE
@@ -72,11 +82,11 @@ class Page extends Component{
     )
   }
 
+
   // renamed bubbles class name to page-submenu
   render() {
-
     return (
-      <div className="page">
+      <div className="page" >
         <div className="page-submenu">
           {this.renderPageSubmenu()}
         </div>

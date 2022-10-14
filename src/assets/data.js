@@ -43,7 +43,7 @@ export const panels = [
     firstName: "Mona",
     lastName: "Jarrahi",
     text: 'Award and Feature',
-    linkCopy: "much much more",
+    linkText: "much much more",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
     link: "highlights/jarrahi"
   },
