@@ -3,12 +3,12 @@ $values: 0 0 100px;
 $border-radius: 2px;
 $border-radius-half: 1px;
 
-$box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
-$box-shadow3: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.4);
-$box-shadow5: 0 0 0 3px rgba(0, 0, 0, 0.5), 0 4px 4px rgba(0, 0, 0, 0.4);
+$box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 2px 2px 3px rgba(0, 0, 0, 0.20);
+$box-shadow3: 2px 2px 2px rgba(0, 0, 0, 0.2), 3px 3px 4px rgba(0, 0, 0, 0.3);
+$box-shadow5: 2px 2px 3px rgba(0, 0, 0, 0.2), 3px 3px 5px rgba(0, 0, 0, 0.35);
 $drop-shadow: drop-shadow(1px 1px 0 rgba(255, 255, 255, .5));
 $drop-shadow3: drop-shadow(3px 3px 3px rgba(255, 255, 255, .5));
-$drop-shadow5: drop-shadow(5px 5px 5px rgba(255, 255, 255, .75));
+$drop-shadow5: drop-shadow(.5rem .5rem 1rem rgba(255, 255, 255, .75));
 
 
 $white: white;
@@ -22,11 +22,14 @@ $ubatuba--90: rgba(104,118,109, .9);
 $ubatuba-menu: rgba(24,100,64, 1);
 
 $dkblue: rgb(33,47,60);
+$dkblue2: rgb(44,57,90);
 $menublue: rgb(17, 170, 161);
 $menublue--30: rgba(33, 47, 90, 0.3);
 $menublue--50: rgba(33, 47, 90, 0.5);
 $menublue--70: rgba(33, 47, 90, 0.7);
+$menublue--80: rgba(33, 47, 90, 0.8);
 $menublue--90: rgba(33, 47, 90, 0.9);
+$menublue--95: rgba(33, 47, 90, 0.95);
 // $amazon: #0d4773; //13 71 115
 
 $LightSteelBlue: #B0C4DE;
@@ -35,6 +38,7 @@ $gray-80: #2b2b2b; // 43 43 43
 $gray-60: #646464; // 100 100 100
 $gray-50: #C0C0C0;// 192 192 192;
 $gray-40: #949494; //148 148 148
+$gray-30: #c6c6c6;// ;
 $gray-20: #DCDCDC; //220 220 220;
 $gray-10: #f5f5f5; // 245 245 245;
 

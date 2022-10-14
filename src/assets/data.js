@@ -43,7 +43,7 @@ export const panels = [
     firstName: "Mona",
     lastName: "Jarrahi",
     text: 'Award and Feature',
-    linkText: "much much more",
+    linkText: "",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
     link: "highlights/jarrahi"
   },
@@ -53,7 +53,7 @@ export const panels = [
     firstName: "Dejan",
     lastName: "Markovic",
     text: "Markovic",
-    linkText: "more",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
     link: "highlights/markovic"
   },
@@ -63,7 +63,7 @@ export const panels = [
     firstName: "Frank",
     lastName: " Chang",
     text: "Frank Chang Does It",
-    linkText: "more",
+    linkText: "<i style='font-size:24px' class='fas'>&#xf061;</i>",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
     link: "highlights/chang"
   },
@@ -73,7 +73,7 @@ export const panels = [
     firstName: "Asad",
     lastName: "Madni",
     text: ' Asad Madni does it again',
-    linkText: "Madni's accomplishments",
+    linkText: "&#xf061;",
     image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
     link: "highlights/madni"
   }

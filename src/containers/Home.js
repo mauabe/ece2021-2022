@@ -42,14 +42,15 @@ class Home extends Component{
             </div>
             <Link to={`/${panel.link}`} >
               <div className="linkText">
-                {panel.linkText}
+                <span class='material-symbols-outlined'>arrow_forward</span>
+                {/* <img src="/img/arrow-alt-circle-right-solid.svg" /> */}
               </div>
             </Link>
           </div>
         </div>
         );
       });
-    console.log('html outside map panelContainer::', html);
+    // console.log('html outside map panelContainer::', html);
     return html;
   }
 
