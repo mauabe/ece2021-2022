@@ -1,6 +1,5 @@
 export const topMenu = [
-  ['intro', 'Intro'],
-  ['highlights', 'Faculty Highlights'],
+  ['highlights', 'Highlights'],
   ['students', 'Students & Teaching'],
   ['faculty', 'ECE Faculty'],
   ['overview', 'Department Overview'],
@@ -44,7 +43,7 @@ export const panels = [
     firstName: "Mona",
     lastName: "Jarrahi",
     text: 'Award and Feature',
-    linkCopy: "much much more",
+    linkText: "much much more",
     image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
     link: "highlights/jarrahi"
   },

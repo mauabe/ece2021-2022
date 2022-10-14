@@ -19,7 +19,7 @@ export const articlesAlumni = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: 'https://source.unsplash.com/guLAk5gqj-Y/1500x1500',
+    articleImageMain: 'https://source.unsplash.com/xnqVGsbXgV4/1500x1500',
     articleImageAltTextMain: '',
     articleImageProf: '/img/AbeerAlwan-profile.jpg',
     articleImageAltTextProf: 'Abeer Alwan',

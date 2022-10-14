@@ -4,7 +4,7 @@ import '../scss/styles.scss';
 
 import Navigation from './Navigation';
 import Home from './Home';
-import News from './News';
+// import News from './News';
 import Highlights from './Highlights';
 import Students from './Students';
 import Faculty from './Faculty';
@@ -34,23 +34,21 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <Switch>
-          <Route path='/intro' component={News}/>
           <Route path='/highlights' component={Highlights}/>
           <Route path='/students' component={Students}/>
           <Route path='/faculty' component={Faculty}/>
           <Route path='/overview' component={Overview}/>
           <Route path='/alumni' component={Alumni}/>
-
-          <Route path='/intro' render={() => <Redirect to="/intro"/>} />
-          {/*
-          <Route path='/highlights' render={() => <Redirect to="/highlights/highlights0"/>} />
-          <Route path='/students' render={() => <Redirect to="/students/awardsundergrad"/>} />
-          <Route path='/faculty' render={() => <Redirect to="/faculty/ces" />} />
-          <Route path='/overview' render={() => <Redirect to="/overview/researchcenters"/>} />
-          <Route path='/alumni' render={() => <Redirect to="/alumni/alumnae"/>} />
-          */}
-
           <Route exact path='/' component={Home}/>
+          <Route path='/highlights' render={() => <Redirect to="/highlights/intro"/>} />
+          {/*
+            <Route path='/intro' component={News}/>
+            <Route path='/intro' render={() => <Redirect to="/intro"/>} />
+            <Route path='/students' render={() => <Redirect to="/students/awardsundergrad"/>} />
+            <Route path='/faculty' render={() => <Redirect to="/faculty/ces" />} />
+            <Route path='/overview' render={() => <Redirect to="/overview/researchcenters"/>} />
+            <Route path='/alumni' render={() => <Redirect to="/alumni/alumnae"/>} />
+          */}
         </Switch>
         <Footer/>
       </div>

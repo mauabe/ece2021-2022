@@ -92,14 +92,43 @@ img.none {
 .none {
   display: none;
 }
-
 .spacer{
   margin: 1rem 0;
 }
-.content-area{
+
+.content-area {
   display: flex;
   flex-direction: column;
 }
+
+
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.transitionMounted{
+  animation: "inAnimation 250ms ease-in"
+};
+.transitionUnmounted {
+ animation: "outAnimation 270ms ease-out"
+};
 
 .App {
   // height: 100%;
@@ -107,7 +136,6 @@ img.none {
   justify-content: center;
   background-color: $gray-80;
   color: $gray-40;
-  // background-image:  linear-gradient($dkblue, $background--80, $dkblue);
   background-image: url("../assets/images/axiom.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;

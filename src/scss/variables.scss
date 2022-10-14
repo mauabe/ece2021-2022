@@ -5,8 +5,10 @@ $border-radius-half: 1px;
 
 $box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.20);
 $box-shadow3: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 4px 4px rgba(0, 0, 0, 0.4);
+$box-shadow5: 0 0 0 3px rgba(0, 0, 0, 0.5), 0 4px 4px rgba(0, 0, 0, 0.4);
 $drop-shadow: drop-shadow(1px 1px 0 rgba(255, 255, 255, .5));
 $drop-shadow3: drop-shadow(3px 3px 3px rgba(255, 255, 255, .5));
+$drop-shadow5: drop-shadow(5px 5px 5px rgba(255, 255, 255, .75));
 
 
 $white: white;
@@ -24,7 +26,7 @@ $menublue: rgb(17, 170, 161);
 $menublue--30: rgba(33, 47, 90, 0.3);
 $menublue--50: rgba(33, 47, 90, 0.5);
 $menublue--70: rgba(33, 47, 90, 0.7);
-$menublue--90: rgba(33, 47, 90, 0.0);
+$menublue--90: rgba(33, 47, 90, 0.9);
 // $amazon: #0d4773; //13 71 115
 
 $LightSteelBlue: #B0C4DE;

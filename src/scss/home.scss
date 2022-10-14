@@ -2,123 +2,137 @@
 @import "./variables.scss";
 
 
-// classes in use: content-area > panelImage > panelsContainer > panel > panel${id} > panelContent > panelTitle, panelName, panelText, panelLinkButton
+// classes in use: content-area > panel-content-area + panel${id} > panel  + active > panelContent > panelHead > (panelTitle, panelFirstName,panelLastName), panelText + showText, a > linkText
 
-
-.panelsContainer {
+.panel-content-area {
   display: flex;
-  flex: 1 1 100%;
-  min-height: 87vh;
+  height: 87vh;
   flex-direction: row;
-  position: relative;
-  // background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
+  justify-content: space-around;
+  padding: 30vh 2em 0em 2em;
+  // position: relative;
+  // width: 100vw;
 
-
+  // background-image: url("https://source.unsplash.com/qKoEIBZ4lLM/1500x1500");
 
   .panel{
     display: flex;
-    flex: 1 1 auto;
+    flex: 1 0 15%;
     z-index: 20;
-    transition:
-    // min-width 0.3s ease-in-out 0.3s,
-    opacity 0.5s ease-in-out 0.3s,
-    filter 0.3s ease-in-out 0.3s;
+    margin: 2em;
+    color: gray-50;
+    // box-shadow: $box-shadow;
+    // filter: grayscale(0.85);
 
-    .panelImage{
-      top: 0;
-      width: 100vw;
-      height: 87vh;
-      background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
-      background-color: teal;
-      opacity: 80%;
-      background-size: cover;
-      background-position: center center;
-      background-repeat: no-repeat;
-      flex-wrap: no-wrap;
-      overflow: hidden;
-      filter: grayscale(0.85);
-      z-index: 5;
-      display: none;
-    }
+    // transition:
+      // min-width 0.3s ease-in-out 0.3s,
+      // opacity 0.5s ease-in-out 0.3s,
+      // filter 0.3s ease-in-out 0.3s;
 
     .panelContent {
       display: flex;
-      margin: 1em 2em 1em 2em;
-      min-height: 10%;
-      max-height: 200px;
-      background-image: radial-gradient($background--80, $dkblue);
-      flex: 1 1 100%;
-      top: 0;
-      position: absolute;
-      margin:  1em 0 1em 2.5em;
-      align-items: flex-start;
+      flex: 1 0 15%;
       flex-direction: column;
+      height: 20vh;
+      background-image: radial-gradient($menublue--90, $dkblue);
+      align-items: stretch;
+      box-shadow: $box-shadow;
+      transition: all 0.1s ease-in-out;
 
-      .panelTextBox{
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        // min-width: 5rem;
-        // max-width: 10rem;
+      .panelHead{
+        // display: flex;
+        // flex-direction: column;
+        margin: 1em;
 
         .panelTitle, .panelFirstName {
-          display: flex;
-          flex: 1 1 100%;
           font-family:'Nova Square', sans-serif;
-          font-size: 1.3em;
-          letter-spacing: 0.1ch;
+          font-size: 1.2em;
+          // letter-spacing: 0.1ch;
           text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
         .panelLastName {
-          display: flex;
           color: $LightSteelBlue;
-          flex: 1 1 100%;
           font-family:'Alfa Slab One';
-          font-size: 1.8em;
-          // font-weight: 200;
-          // margin: 0.2em 0;
+          font-size: 1.7em;
+          margin: 0.2em 0;
           text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
       }
       .panelText {
-        display: flex;
-        // max-width: 6rem;
-        line-height: 1.4;
+        // display: flex;
+        color: grey-20;
         font-family:'Nova Square', sans-serif;
-        font-size: 1.3em;
-        opacity: 0;
-        text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
-        margin: 0;
-        padding: 0.5em 1em 0.5em 0;
+        font-size: 1.1em;
+        margin: 1em;
+        // line-height: 1.4;
+        // opacity: 50%;
+        // text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
+                  // padding: 0.5em 1em 0.5em 0;
+        &.showText{
+          opacity: 100%;
+          visibility: visible;
+        }
       }
-      .linkText {
+      a.linkText {
+        margin: 1em;
+        align-self: flex-end;
         font-family:'Nova Square', sans-serif;
         font-size: 1em;
-        color: $gray-20;
-        background-color: $gray-80;
+        color: $gray-40;
+        background-color: $background--50;
         transition:
-          color 0.3s ease-in-out 0.3s,
-          background-color 0.3s ease-in-out 0.3s;
+          color 0.3s ease-in-out,
+          background-color 0.3s ease-in-out ;
 
         &:hover{
-          color: $gray-40;
+          color: $gray-20;
           background-color: $menublue;
         }
       }
+      &.hover{
+        color: gray-20;
+        cursor:context-menu;
+        box-shadow: $box-shadow5;
+        filter: drop-shadow($drop-shadow5);
+        box-shadow: red;
+      }
     } //end panelContent
 
-    &:hover{
-      transition: filter 0.3s, min-height 0.3s ease-in-out 0.3s;
-      filter: grayscale(0.05);
+    // &:hover{
+    //   background-image: radial-gradient($menublue--70, $dkblue);
+    //   box-shadow: red;
+    //   // transition: filter 0.3s, min-height 0.3s ease-in-out 0.3s;
+    //   // filter: grayscale(0.05);
+    //   transition: opacity 0.3s ease-in-out 0.3s;
+    // }
+  } // end of panel
 
-      .panelText{
-        transition: opacity 0.3s ease-in-out 0.3s;
-        opacity: 1;
-      }
+    // &.active{
+    //   background-image: url("https://source.unsplash.com/3VSgApkySLA/1500x1500");
+    // }
+} //end panel-content-area
 
-    }
-  } // end of .panel
-} //end panelsContainer
+.yuantian{
+  // background-color: red;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  flex-wrap: no-wrap;
+  overflow: hidden;
+  background-image: url("https://source.unsplash.com/qKoEIBZ4lLM/1500x1500");
+}
+.monajarrahi{
+  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
+}
+.dejanmarkovic{
+  background-image: url("https://source.unsplash.com/xnqVGsbXgV4/1500x1500");
+}
+.frankchang{
+  background-image: url("https://source.unsplash.com/7c8z4KEvgds/1500x1500");
+}
+.asadmadni{
+  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
+}
 
 @media only screen and (max-width: 1200px) {
   .panel {
@@ -126,7 +140,7 @@
   };
 }
 @media only screen and (max-width: 900px) {
-  .panelsContainer{
+  .panel-content-area{
     flex-direction: column;
     .panel {
       flex-direction: row;
@@ -136,13 +150,13 @@
         top: 2rem;
         flex-direction: row;
         margin: 0 0 0 5rem;
-        .panelTextBox{
+        .panelHead{
           margin: 0;
         }
         .panelText {
           top: 2rem;
           margin: 0;
-          opacity: 1;
+          opacity: 100%;
         }
       }
 

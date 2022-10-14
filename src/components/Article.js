@@ -11,7 +11,7 @@ class Article extends Component{
       pageView: this.props.pageView,
       articleSelection: this.props.articleSelection,
     }
-		// console.log('%c PROPS at ARTICLE COMPONENTS constructor', 'color:black;background:magenta;padding:6px;border:1px dashed black', this.props)
+		console.log('%c PROPS at ARTICLE COMPONENTS constructor this.props::', 'color:black;background:magenta;padding:6px;border:1px dashed black', this.props)
   }
 
   renderTextCopy = () => {
