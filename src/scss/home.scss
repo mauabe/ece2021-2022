@@ -21,27 +21,27 @@
     z-index: 20;
     margin: 2em;
     color: gray-50;
-
     // transition:
       // filter 0.3s ease-in-out 0.3s;
 
     .panelContent {
       display: flex;
-      flex: 1 0 18%;
+      flex: 1 0 20%;
       flex-direction: column;
-      height: 25vh;
+      height: 30vh;
       background-image: radial-gradient($menublue--95, $dkblue);
       // align-items: stretch;
       align-content: stretch;
+      align-content: space-between;
       box-shadow: $box-shadow;
       transition: all 0.2s ease-in-out;
 
       .panelHead{
         display: flex;
-        flex: 1 0 auto;
+        flex: 0 1 25%;
         flex-direction: column;
-        margin: 1em;
-        padding: 1em 0;
+        margin: 2em 1em 0.5em 1em;
+        // padding: 1em 0 0 0;
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
@@ -60,11 +60,12 @@
 
       .panelText {
         display: flex;
+        flex: 1 1 auto;
         color: grey-20;
         font-family:'Nova Square', sans-serif;
         font-size: 1.1em;
         margin: 1em;
-        padding: 0 0 1em 0;
+        // padding: 0 0 1em 0;
         opacity: 0%;
         visibility: none;
         &.showText{
@@ -76,7 +77,7 @@
       .linkText {
         display: flex;
         float: right;
-        margin: 1em;
+        margin: 0.2em 1em 1em 1em ;
         padding: 1em;
         color: $gray-20;
         background-color: $background--50;
@@ -121,25 +122,37 @@
 } //end panel-content-area
 
 .yuantian{
-  // background-color: red;
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
-  flex-wrap: no-wrap;
+  // background-repeat: no-repeat;
+  // flex-wrap: no-wrap;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/qKoEIBZ4lLM/1500x1500");
+  background-image: url("https://source.unsplash.com/7pqS06wgvEw/1500x1500");
 }
 .monajarrahi{
-  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("https://source.unsplash.com/nIEHqGSymRU/1500x1500");
 }
 .dejanmarkovic{
-  background-image: url("https://source.unsplash.com/xnqVGsbXgV4/1500x1500");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("https://source.unsplash.com/s4dfrh7hdDU/1500x1500");
 }
 .frankchang{
-  background-image: url("https://source.unsplash.com/7c8z4KEvgds/1500x1500");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("https://source.unsplash.com/7JX0-bfiuxQ/1500x1500");
 }
 .asadmadni{
-  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("https://source.unsplash.com/SYTO3xs06fU/1500x1500");
+  // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
 }
 
 @media only screen and (max-width: 1200px) {

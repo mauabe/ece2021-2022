@@ -9,11 +9,11 @@ import {createBrowserHistory} from "history";
 
 
 
-const history = createBrowserHistory({basename:"/2021-2022"});
+const history = createBrowserHistory({basename:"/2021-2022/temp"});
 // const router = () => {<Router/>};
 
 ReactDOM.render(
-  <BrowserRouter basename="/2021-2022" history={history} >
+  <BrowserRouter basename="/2021-2022/temp" history={history} >
     <App />
   </BrowserRouter>,
   document.getElementById('root')

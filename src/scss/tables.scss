@@ -6,9 +6,10 @@ table{
   width: 100%;
   min-width: 350px;
   vertical-align: center;
-  background-color: $gray-80;
-  background-image: url("../assets/images/y-so-a.png");
   color:$gray-50;
+  background-color: $gray-50;
+  // opacity: 70%;
+  background-image: url("../assets/images/y-so-a.png");
 }
 
 tr th {
@@ -17,7 +18,7 @@ tr th {
   font-size: 1.4em;
   text-indent: 0;
   padding: 1.5em;
-  background-color: $background--50;
+  background-color: $background--40;
   color:$gray-50;
 
 }
@@ -38,26 +39,24 @@ td.right{
 }
 tfoot tr{
   align-items: center;
-  background-color: $background--50;
+  background-color: $background--40;
   height: 1em;
 }
 
 tbody tr:hover {
-  background-color: $background--50;
+  background-color: $background--20;
 }
 // tr:nth-child(even) {
 //   background-color: $gray-20;
 // }
-
 tr.t-total{
   background-color: $ubatuba--30;
   &:hover{
-    background-color: lighten($ubatuba--30, 10) ;
+    background-color: lighten($ubatuba--50, 10) ;
   }
 }
 tr.sub-head{
   background-color: $ubatuba--30;
-
   &:hover{
     background-color: darken($ubatuba--30, 10) ;
   }

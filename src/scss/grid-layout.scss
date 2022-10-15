@@ -70,7 +70,7 @@
     margin-bottom: 1.5em;
     text-indent: 0;
     text-align: left;
-    color: $ubatuba;
+    color: $gray-40;
   }
 
   .page-img{
@@ -130,12 +130,12 @@
       overflow: hidden;
       margin-bottom: 0.4em;
       transition: all 0.3s;
-      box-shadow: $box-shadow;
+      box-shadow: $box-shadow3;
       border-radius: $border-radius-half;
-      border: 1px solid  $ubatuba;
+      border: 1px solid  $gray-60;
     }
     img.fac:hover{
-      box-shadow: $box-shadow3;
+      box-shadow: $box-shadow5;
     }
   }
 
@@ -168,11 +168,11 @@
         font-weight: 200;
         font-size: 0.6em;
         color: $gray-80;
-        box-shadow: $box-shadow;
+        box-shadow: $box-shadow-a;
         transition: all 0.3s ease-in-out;
         width: 250px;
         height: 250px;
-        background-color: $gray-20;
+        background-color: $gray-10;
         border-radius: $border-radius-half;
         margin: 0 3em 1em 0;
 
@@ -182,7 +182,7 @@
           overflow: hidden;
         }
         &:hover{
-            box-shadow: $box-shadow3;
+            box-shadow: $box-shadow-a3;
         }
       }
 
@@ -219,7 +219,7 @@
   }
   .faculty-caption{
     margin-bottom: 2em;
-    color: $ubatuba;
+    color: $gray-40;
   }
 
 }
