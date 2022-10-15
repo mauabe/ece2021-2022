@@ -4,7 +4,7 @@ import '../scss/styles.scss';
 
 import Navigation from './Navigation';
 import Home from './Home';
-// import News from './News';
+import News from './News';
 import Highlights from './Highlights';
 import Students from './Students';
 import Faculty from './Faculty';
@@ -35,6 +35,7 @@ class App extends Component {
         <Navigation/>
         <Switch>
           <Route path='/highlights' component={Highlights}/>
+          <Route path='/news' component={News}/>
           <Route path='/students' component={Students}/>
           <Route path='/faculty' component={Faculty}/>
           <Route path='/overview' component={Overview}/>
@@ -42,7 +43,6 @@ class App extends Component {
           <Route exact path='/' component={Home}/>
           <Route path='/highlights' render={() => <Redirect to="/highlights/intro"/>} />
           {/*
-            <Route path='/intro' component={News}/>
             <Route path='/intro' render={() => <Redirect to="/intro"/>} />
             <Route path='/students' render={() => <Redirect to="/students/awardsundergrad"/>} />
             <Route path='/faculty' render={() => <Redirect to="/faculty/ces" />} />

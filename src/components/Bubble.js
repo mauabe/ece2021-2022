@@ -19,7 +19,7 @@ class Bubble extends Component{
 
     const {pageView, articleId, articleSelection,  articleImageProf, articleImageAltTextProf, bubbleTextOne, bubbleTextTwo, bubbleTextThree, articleAuthor} = this.props ;
 
-    const activeClassNameCheck = ( articleSelection === articleId) ? "active" + articleId : articleId;
+    const activeClassNameCheck = ( articleSelection === articleId) ? "active" : null;
 
     return (
       <NavLink
