@@ -5,7 +5,7 @@ export const articlesNews = [
     bubbleTextOne: 'Subu Iyer\'s',
     bubbleTextTwo: 'IMAP Oustanding',
     bubbleTextThree: 'Educator Award',
-    articleHeadlineOne:'Oustanding Educator Award',
+    articleHeadlineOne:'OUSTANDING EDUCATOR AWARD',
     articleHeadlineTwo:'Subramanian Iyer Recognized by IMAPS',
     articleHeadlineThree: '',
     articleCallout1: '',
