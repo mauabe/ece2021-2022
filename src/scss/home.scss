@@ -35,6 +35,8 @@
       align-content: space-between;
       box-shadow: $box-shadow;
       transition: all 0.2s ease-in-out;
+      transition: opacity 0.3s ease-in-out 0.3s;
+
 
       .panelHead{
         display: flex;
@@ -61,15 +63,15 @@
       .panelText {
         display: flex;
         flex: 1 1 auto;
-        color: grey-20;
+        color: $gray-20;
         font-family:'Nova Square', sans-serif;
         font-size: 1.1em;
         margin: 1em;
         // padding: 0 0 1em 0;
         opacity: 0%;
-        visibility: none;
+        // visibility: none;
         &.showText{
-          color: grey-20;
+          color: $gray-20;
           opacity: 100%;
           visibility: visible;
         }
@@ -100,8 +102,8 @@
       }
       &:hover{
         //hover over panelContent, blue box
-        color: $gray-30;
-        cursor:context-menu;
+        color: $gray-40;
+        cursor: context-menu;
         background-image: radial-gradient($menublue--90, $dkblue);
         box-shadow: $box-shadow5;
         .panelText {
@@ -118,6 +120,12 @@
     //   // filter: grayscale(0.05);
     //   transition: opacity 0.3s ease-in-out 0.3s;
     // }
+    &:active .panelContent{
+      .panelText.showText{
+      opacity: 100%;
+      visibility: visible;
+     }
+    }
   } // end of panel
 } //end panel-content-area
 
@@ -129,17 +137,17 @@
   overflow: hidden;
   background-image: url("https://source.unsplash.com/7pqS06wgvEw/1500x1500");
 }
-.monajarrahi{
+.monajarrahiiet{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/nIEHqGSymRU/1500x1500");
+  background-image: url("https://source.unsplash.com/J10TawzEW6Q/1500x1500");
 }
-.dejanmarkovic{
+.dejanmarkovicaimbe{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/s4dfrh7hdDU/1500x1500");
+  background-image: url("https://source.unsplash.com/58Z17lnVS4U/1500x1500");
 }
 .frankchang{
   background-size: cover;
@@ -151,7 +159,7 @@
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/SYTO3xs06fU/1500x1500");
+  background-image: url("https://source.unsplash.com/Rh0OHLl_I5k/1500x1500");
   // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
 }
 
@@ -174,11 +182,11 @@
         .panelHead{
           margin: 0;
         }
-        .panelText {
-          top: 2rem;
-          margin: 0;
-          opacity: 100%;
-        }
+        // .panelText {
+        //   top: 2rem;
+        //   margin: 0;
+        //   opacity: 100%;
+        // }
       }
 
       &:hover{
