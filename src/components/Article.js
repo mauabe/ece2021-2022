@@ -16,10 +16,9 @@ class Article extends Component{
 
   renderTextCopy = () => {
     const html =  `${this.props.story.textCopy}`;
-    // const html = (this.props.story.textCopy.length === 0) ? <Story /> : `${this.props.story.textCopy}`;
     return (
       <div className="text-copy">
-        <div className={`text-body ${this.props.story.articleId}+"Text"`}>{ ReactHtmlParser(html) }</div>
+        <div className={`text-body ${this.props.story.articleId}-text`}>{ ReactHtmlParser(html) }</div>
       </div>
     )
   }
@@ -51,7 +50,7 @@ class Article extends Component{
     let creditsClassName = (articleImageCred.length === 0) ? "none" : "credits";
 
     return (
-    <div className={`article ${articleId}+"Article"`}>
+    <div className={`article ${articleId}-article`}>
       <div className='article-content'>
         <div className='container'>
           <img src={`${articleImageMain}`}
@@ -80,7 +79,7 @@ class Article extends Component{
 
         {this.renderTextCopy()}
 
-        <div className={`picture-area ${pictClassName} ${articleId}+"Pics" `}>
+        <div className={`picture-area ${pictClassName} ${articleId}-pics`}>
           <div className={`row ${row1ClassName}`}>
             <img src={`${articleImage1}`} alt={articleImageAltText1} title={articleImageAltText1} className={`articleImageLeft ${articleImage1Class}`} />
             <img src={`${articleImage2}`} alt={articleImageAltText2} title={articleImageAltText2} className={`articleImageRight ${articleImage2Class}`} />
@@ -100,7 +99,7 @@ class Article extends Component{
           <span className={caption3ClassName}>{articleCaption3}</span>
         </div>
 
-        <div className={`${creditsClassName} ${articleId}+"Credits"`}>
+        <div className={`${creditsClassName} ${articleId}-credits`}>
           <span className={imgCreditClassName}>{ReactHtmlParser(articleImageCred)}</span>
           <span className={authorCreditClassName}>{ReactHtmlParser(articleAuthor)}</span>
         </div>
