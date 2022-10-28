@@ -28,10 +28,10 @@
         height: 4rem;
         overflow: hidden;
         background-color: $gray-60;
-        // border: 1px solid $ubatuba;
         border-radius: $border-radius;
         filter: grayscale(0.8);
         margin: 10px;
+        transition: all .4s ease-in-out;
 
         img.bubble-image{
           height: 100%;
@@ -40,7 +40,6 @@
         }
 
         &.active {
-          transition: all .4s ease-in-out;
           border: 1px solid $ubatuba;
           box-shadow: $box-shadow;
           filter: grayscale(0.1);

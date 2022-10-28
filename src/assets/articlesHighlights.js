@@ -31,7 +31,7 @@ export const articlesHighlights = [
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: '    <p style="text-indent:0">Grope the menu of a fine restaurant or the produce section of a specialty grocery store, and you\'re likely to spy microgreens: tiny, delicate greens that add color, texture and flavor to a variety of foods as a garnish or ingredient. </p><p>    Big on nutrition and flavor, microgreens can be expensive to purchase. But they can also be grown cost-effectively at home, in a tiny space and with simple supplies. If you have a sunny windowsill, a shallow container, some potting mix and suitable seeds, you\'ve got all the essentials for growing your own microgreens. This is a great crop for urban gardeners who are limited to a windowsill, balcony or fire escape.</p><p> What are microgreens?</p><p> Also known as "vegetable confetti," microgreens are sometimes confused with sprouts — germinated seeds that are eaten root, seed and shoot. Microgreens, however, include a variety of edible immature greens, harvested with scissors less than a month after germination, when the plants are up to 2 inches tall. The stem, cotyledons (or seed leaves) and first set of true leaves are all edible.</p><p> Which seeds work best?</p><p>  Salad greens, leafy vegetables, herbs and even edible flowers can be grown as microgreens, though some varieties are better suited than others. Beginners often start by growing one type of seed, such as broccoli, cauliflower, cabbage, mustard, chia, sunflower or buckwheat — among the easiest-to-grow varieties of microgreens — in a single container. (You can easily grow different seeds in several containers, and mix your microgreens after harvesting.)</p><p>  You can also find seeds for salad mixes and specially selected microgreen mixes that combine greens with similar growth rates, compatible flavors and beautiful coloring including reds, purples and greens. Since they were created with grower success in mind, they\'re also a good choice for beginners.</p><> If your climate is suitable, microgreens can be also be grown outdoors in the garden, under shade. Like all fragile seedlings, you\'ll need to protect them from weather extremes and drying winds, not to mention hungry garden pests.</p> '
+    textCopy: '    <p style="text-indent:0">Grope the menu of a fine restaurant or the produce section of a specialty grocery store, and you\'re likely to spy microgreens: tiny, delicate greens that add color, texture and flavor to a variety of foods as a garnish or ingredient. </p><p>    Big on nutrition and flavor, microgreens can be expensive to purchase. But they can also be grown cost-effectively at home, in a tiny space and with simple supplies. If you have a sunny windowsill, a shallow container, some potting mix and suitable seeds, you\'ve got all the essentials for growing your own microgreens. This is a great crop for urban gardeners who are limited to a windowsill, balcony or fire escape.</p><p> What are microgreens?</p><p> Also known as "vegetable confetti," microgreens are sometimes confused with sprouts — germinated  that are eaten root, seed and shoot. Microgreens, however, include a variety of edible immature greens, harvested with scissors less than a month after germination, when the plants are up to 2 inches tall. The stem, cotyledons (or seed leaves) and first set of true leaves are all edible.</p><p> Which seeds work best?</p><p>  Salad greens, leafy vegetables, herbs and even edible flowers can be grown as microgreens, though some varieties are better suited than others. Beginners often start by growing one type of seed, such as broccoli, cauliflower, cabbage, mustard, chia, sunflower or buckwheat — among the easiest-to-grow varieties of microgreens — in a single container. (You can easily grow different seeds in several containers, and mix your microgreens after harvesting.)</p><p>  You can also find seeds for salad mixes and specially selected microgreen mixes that combine greens with similar growth rates, compatible flavors and beautiful coloring including reds, purples and greens. Since they were created with grower success in mind, they\'re also a good choice for beginners.</p><> If your climate is suitable, microgreens can be also be grown outdoors in the garden, under shade. Like all fragile seedlings, you\'ll need to protect them from weather extremes and drying winds, not to mention hungry garden pests.</p> '
   },
   {
     articleId: 'yuantian',
@@ -178,12 +178,12 @@ export const articlesHighlights = [
     articleCallout1: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '',
-    articleImage2:'',
-    articleImage3: '',
-    articleImage4:'',
-    articleImage5:'',
-    articleImage6:'',
+    articleImage1: '/img/madni_ieee_rae_medals.jpg',
+    articleImage2:'/img/madni_tufts_tbp_medals.jpg',
+    articleImage3: '/img/madni_ieee_family.jpg',
+    articleImage4:'/img/madni_ieee_family2.jpg',
+    articleImage6:'/img/madni_ieee_presidents.jpg',
+    articleImage5:'/img/madni_ieee_jamal.jpg',
     articleImageAltText1: '',
     articleImageAltText2: '',
     articleImageAltText3: '',
@@ -191,14 +191,14 @@ export const articlesHighlights = [
     articleImageAltText5: '',
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/Rh0OHLl_I5k/1500x1500',
-    articleImageAltTextMain: 'ucla campus',
+    articleImageAltTextMain: 'Globe sculpture',
     articleImageProf: '/img/madni.jpg',
-    articleImageAltTextProf: 'seeds sprouting',
+    articleImageAltTextProf: 'Asad Madni',
     articleImageCred: '',
     articleAuthor: '',
-    articleCaption1: '',
-    articleCaption2: '',
-    articleCaption3: '',
+    articleCaption1: 'Medals: IEEE Medal of Honor, RAE Prince Philp Medal, Tufts SOE Dean’s Medal and Tau Beta Pi McDonald Mentor Medal',
+    articleCaption2: '2022 IEEE Award Cerimony, Professor Madni with his family',
+    articleCaption3: 'Professor Madni with his son Dr. Jamal Madni (left) and IEEE President Elect Dr. Saifur Rahman, Dr. Asad Madni, Dr. Andrew Viterbi, Dr. Jamal Madni, IEEE President Dr. Ray Liu (right) ',
     textCopy: '    <p style="text-indent:0"><span class="first-letter">D</span>istinguished Adjunct Professor Asad M Madni was selected by the Institute of Electrical and Electronics Engineers (IEEE) Board of Directors to receive the institute’s highest honor, the 2022 IEEE Medal of Honor. The IEEE has more than 420,000 members in more than 160 countries and this is their highest as well as most selective and distinguished award. It is often compared to the “Nobel Prize” for electrical and electronic sciences and engineering. It was established in 1917 and is given annually to a candidate who has “made a particular contribution that forms a clearly exceptional addition to the science and technology of concern to IEEE.”  Professor Madni was selected for his “pioneering contributions to the development and commercialization of innovative sensing and systems technologies, and for distinguished research leadership.” Past winners are replete with Nobel Laureates, presidents of prestigious universities, titans of industry, and technical luminaries.</p><p>    Professor Madni has also been awarded the 2022 Prince Philip Medal by the U.K. Royal Academy of Engineering (RAE). This is the highest individual international honor conferred by the RAE “to an engineer of any nationality who has made an exceptional contribution to engineering as a whole through practice, management or education”. This medal was commissioned by HRH The Prince Philip Duke of Edinburgh KG KT, Senior Fellow of RAE, who was instrumental in the establishment of the RAE. Previous winners have been world renowned luminaries and giants of engineering.</p><p>   Tufts University has also honored Professor Madni with an Honorary Doctor of Engineering Degree (D.Eng.). In his formal letter, University President, Anthony Monaco states "On behalf of the Board of Trustees, I write to invite you to receive an honorary degree from Tufts University at our all-university Commencement ceremony on Sunday, May 22, 2022. It would be a privilege to recognize in this way your contributions to the field of Engineering and commercial technologies". Professor Madni also served as the Commencement Speaker for Tufts School of Engineering (SOE) where he was awarded the Dean’s Medal, the highest honor granted by the SOE.</p><p>    In recognition of his outstanding contributions to the field of Engineering, Professor Madni was elected a Fellow of the Washington Academy of Sciences and the Asia-Pacific Artificial Intelligence Association. In addition, Tau Beta Pi, the Engineering Honor Society, honored him with its 2022 McDonald Mentor Medal. According to Tau Beta Pi, the purpose of this award is "to celebrate excellence among Tau Beta Pi educators and engineers who have consistently supported the personal and professional development of their students and colleagues as excellent mentors or advisors. Serving as engineering educators or as professionals in industry, government, or service organizations, these Tau Beta Pi mentors have contributed diversely to our engineering community, serving as effective advocates and guides in both professional and administrative matters. They have shown true concern for individuals, supporting an environment for developing talents, and have earned respect and recognition for their contributions to their field and to the greater community". </p> '
   }
 ];

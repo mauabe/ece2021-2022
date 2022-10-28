@@ -44,6 +44,7 @@
         flex-direction: column;
         margin: 2em 1em 0.5em 1em;
         // padding: 1em 0 0 0;
+        filter: brightness(1);
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
@@ -104,27 +105,31 @@
         //hover over panelContent, blue box
         color: $gray-40;
         cursor: context-menu;
-        background-image: radial-gradient($menublue--90, $dkblue);
+        background-image: radial-gradient($menublue--80, $dkblue);
         box-shadow: $box-shadow5;
+        opacity: 92%;
         .panelText {
-          opacity: 100%;
-          visibility: visible;
+          opacity: 90%;
         }
       }
     } //end panelContent
 
-    // &:hover{
-    //   background-image: radial-gradient($menublue--70, $dkblue);
-    //   box-shadow: red;
-    //   // transition: filter 0.3s, min-height 0.3s ease-in-out 0.3s;
-    //   // filter: grayscale(0.05);
-    //   transition: opacity 0.3s ease-in-out 0.3s;
-    // }
-    &:active .panelContent{
-      .panelText.showText{
-      opacity: 100%;
-      visibility: visible;
-     }
+    &:active {
+      .panelContent {
+        .panelHead {
+          .panelTitle, .panelFirstName {
+            color: $gray-20;
+          }
+          .panelLastName {
+            filter: brightness(1.5);
+          }
+        }
+
+        .panelText.showText{
+          color: $gray-20;
+          opacity: 30%;
+        }
+      }
     }
   } // end of panel
 } //end panel-content-area
@@ -149,13 +154,13 @@
   overflow: hidden;
   background-image: url("https://source.unsplash.com/58Z17lnVS4U/1500x1500");
 }
-.frankchang{
+.frankchangeasa{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
   background-image: url("https://source.unsplash.com/7JX0-bfiuxQ/1500x1500");
 }
-.asadmadni{
+.asadmadnihonors{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
