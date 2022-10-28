@@ -136,7 +136,7 @@ export const articlesNews = [
     bubbleTextTwo: 'Ozcan Wins ',
     bubbleTextThree: 'Optica Prize',
     articleHeadlineOne: 'CHANCELLOR\'S PROFESSOR ',
-    articleHeadlineTwo: 'Aydogan Ozcan Receives Optica\'s Joseph Fraunhofer Award and Robert M. Burley Prize for Optical Engineering. ',
+    articleHeadlineTwo: 'Aydogan Ozcan Receives Optica\'s Joseph Fraunhofer Award and Robert M. Burley Prize for Optical Engineering',
     articleHeadlineThree: '',
     articleImage1: '/img/ozcan_4.jpg',
     articleImage2: '/img/ozcan-osa.jpg',

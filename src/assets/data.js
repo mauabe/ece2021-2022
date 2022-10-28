@@ -59,7 +59,7 @@ export const panels = [
     link: "highlights/markovic"
   },
   {
-    id: "frankchang",
+    id: "frankchangeasa",
     title: "Professor ",
     firstName: "M.C. Frank",
     lastName: " Chang",
@@ -69,7 +69,7 @@ export const panels = [
     link: "highlights/chang"
   },
   {
-    id: "asadmadni",
+    id: "asadmadnihonors",
     title: "Professor ",
     firstName: "Asad",
     lastName: "Madni",
