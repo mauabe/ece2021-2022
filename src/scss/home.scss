@@ -34,9 +34,7 @@
       align-content: stretch;
       align-content: space-between;
       box-shadow: $box-shadow;
-      transition: all 0.2s ease-in-out;
-      transition: opacity 0.3s ease-in-out 0.3s;
-
+      transition: all 0.2s ease-in-out 0.2s;
 
       .panelHead{
         display: flex;
@@ -69,11 +67,9 @@
         font-size: 1.1em;
         margin: 1em;
         // padding: 0 0 1em 0;
-        opacity: 0%;
-        // visibility: none;
+        visibility: hidden;
         &.showText{
-          color: $gray-20;
-          opacity: 100%;
+          color: $gray-40;
           visibility: visible;
         }
       }
@@ -82,7 +78,7 @@
         float: right;
         margin: 0.2em 1em 1em 1em ;
         padding: 1em;
-        color: $gray-20;
+        color: $gray-40;
         background-color: $background--50;
         transition:
           color 0.3s ease-in-out,
@@ -107,9 +103,8 @@
         cursor: context-menu;
         background-image: radial-gradient($menublue--80, $dkblue);
         box-shadow: $box-shadow5;
-        opacity: 92%;
         .panelText {
-          opacity: 90%;
+          filter: brightness(.8);
         }
       }
     } //end panelContent
@@ -127,7 +122,7 @@
 
         .panelText.showText{
           color: $gray-20;
-          opacity: 30%;
+          visibility: visible;
         }
       }
     }
@@ -190,7 +185,7 @@
         // .panelText {
         //   top: 2rem;
         //   margin: 0;
-        //   opacity: 100%;
+        //   visibility: visible;
         // }
       }
 

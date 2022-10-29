@@ -134,7 +134,7 @@ export const articlesHighlights = [
     textCopy: '    <p style="text-indent:0"><span class="first-letter">T</span>he American Institute for Medical and Biological Engineering (AIMBE) has announced the election of Dejan Markovic to its College of Fellows. Dr. Markovic was nominated, reviewed, and elected by peers and members of the AIMBE College of Fellows for outstanding contributions to neurotechnology for clinical and translational neuroscience.</p><p> The College of Fellows is comprised of the top two percent of medical and biological engineers in the country. The most accomplished and distinguished engineering and medical school chairs, research directors, professors, innovators, and successful entrepreneurs comprise the College of Fellows. AIMBE Fellows are regularly recognized for their contributions in teaching, research, and innovation. AIMBE Fellows have been awarded the Nobel Prize, the Presidential Medal of Science and the Presidential Medal of Technology and Innovation, and many also are members of the National Academy of Engineering, National Academy of Medicine, and the National Academy of Sciences. A formal induction ceremony was held during AIMBE’s 2022 Annual Event (<span>www.aimbe.org </span>).</p><p>  AIMBE’s mission is to recognize excellence in, and advocate for, the fields of medical and biological engineering to advance society. Since 1991, AIMBE’s College of Fellows has led the way for technological growth and advancement in the fields of medical and biological engineering. AIMBE Fellows have helped revolutionize medicine and related fields to enhance and extend the lives of people all over the world. They have successfully advocated for public policies that have enabled researchers and business-makers to further the interests of engineers, teachers, scientists, clinical practitioners, and ultimately, patients.</p><p>   AIMBE Fellows are committed to giving back to the fields of medical and biological engineering through advocacy efforts and public policy initiatives that benefit the scientific community, as well as society at large.</p>'
   },
   {
-    articleId: 'frankchangeasa',
+    articleId: 'frankchang',
     bubbleTextOne: 'M.C. Frank',
     bubbleTextTwo: 'Chang',
     bubbleTextThree: 'Elected to EASA',
@@ -144,8 +144,8 @@ export const articlesHighlights = [
     articleCallout1: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '',
-    articleImage2:'',
+    articleImage2: '/img/EASA_logo.png',
+    articleImage1:'/img/frank-chang-easa.jpg',
     articleImage3: '',
     articleImage4:'',
     articleImage5:'',
@@ -192,12 +192,12 @@ export const articlesHighlights = [
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/Rh0OHLl_I5k/1500x1500',
     articleImageAltTextMain: 'Globe sculpture',
-    articleImageProf: '/img/madni.jpg',
+    articleImageProf: '/img/Asad_Madni-7262022.jpg',
     articleImageAltTextProf: 'Asad Madni',
     articleImageCred: '',
     articleAuthor: '',
     articleCaption1: 'Medals: IEEE Medal of Honor, RAE Prince Philp Medal, Tufts SOE Dean’s Medal and Tau Beta Pi McDonald Mentor Medal',
-    articleCaption2: '2022 IEEE Award Cerimony, Professor Madni with his family',
+    articleCaption2: '2022 IEEE Award Ceremony, Professor Madni with his family',
     articleCaption3: 'Professor Madni with his son Dr. Jamal Madni (left) and IEEE President Elect Dr. Saifur Rahman, Dr. Asad Madni, Dr. Andrew Viterbi, Dr. Jamal Madni, IEEE President Dr. Ray Liu (right) ',
     textCopy: '    <p style="text-indent:0"><span class="first-letter">D</span>istinguished Adjunct Professor Asad M Madni was selected by the Institute of Electrical and Electronics Engineers (IEEE) Board of Directors to receive the institute’s highest honor, the 2022 IEEE Medal of Honor. The IEEE has more than 420,000 members in more than 160 countries and this is their highest as well as most selective and distinguished award. It is often compared to the “Nobel Prize” for electrical and electronic sciences and engineering. It was established in 1917 and is given annually to a candidate who has “made a particular contribution that forms a clearly exceptional addition to the science and technology of concern to IEEE.”  Professor Madni was selected for his “pioneering contributions to the development and commercialization of innovative sensing and systems technologies, and for distinguished research leadership.” Past winners are replete with Nobel Laureates, presidents of prestigious universities, titans of industry, and technical luminaries.</p><p>    Professor Madni has also been awarded the 2022 Prince Philip Medal by the U.K. Royal Academy of Engineering (RAE). This is the highest individual international honor conferred by the RAE “to an engineer of any nationality who has made an exceptional contribution to engineering as a whole through practice, management or education”. This medal was commissioned by HRH The Prince Philip Duke of Edinburgh KG KT, Senior Fellow of RAE, who was instrumental in the establishment of the RAE. Previous winners have been world renowned luminaries and giants of engineering.</p><p>   Tufts University has also honored Professor Madni with an Honorary Doctor of Engineering Degree (D.Eng.). In his formal letter, University President, Anthony Monaco states "On behalf of the Board of Trustees, I write to invite you to receive an honorary degree from Tufts University at our all-university Commencement ceremony on Sunday, May 22, 2022. It would be a privilege to recognize in this way your contributions to the field of Engineering and commercial technologies". Professor Madni also served as the Commencement Speaker for Tufts School of Engineering (SOE) where he was awarded the Dean’s Medal, the highest honor granted by the SOE.</p><p>    In recognition of his outstanding contributions to the field of Engineering, Professor Madni was elected a Fellow of the Washington Academy of Sciences and the Asia-Pacific Artificial Intelligence Association. In addition, Tau Beta Pi, the Engineering Honor Society, honored him with its 2022 McDonald Mentor Medal. According to Tau Beta Pi, the purpose of this award is "to celebrate excellence among Tau Beta Pi educators and engineers who have consistently supported the personal and professional development of their students and colleagues as excellent mentors or advisors. Serving as engineering educators or as professionals in industry, government, or service organizations, these Tau Beta Pi mentors have contributed diversely to our engineering community, serving as effective advocates and guides in both professional and administrative matters. They have shown true concern for individuals, supporting an environment for developing talents, and have earned respect and recognition for their contributions to their field and to the greater community". </p> '
   }

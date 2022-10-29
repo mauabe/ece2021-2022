@@ -40,19 +40,21 @@
       font-family: Oswald;
       font-weight: 700;
       font-size: 1em;
+      line-height: 1.5;
       opacity: 1;
       cursor: pointer;
       transform: all .3s ease-in-out .3s;
 
       &:hover{
-        // transform: all .4s ease-out;
-        color: $gray-50;
         // color: $ubatuba--70;
+        color: $gray-50;
         opacity: 0.8;
       }
       &.active {
         color: $background;
-        text-decoration: 4px underline dotted;
+        line-height: 1.5;
+        text-decoration: 6px underline dotted;
+        text-underline-offset: 12px;
       }
       &:active {
         color: $gray-10;
