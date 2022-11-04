@@ -93,13 +93,11 @@
 
   .student-center-frame{
     text-indent: 0;
-    // overflow: hidden;
     max-width: 650px;
-    max-height: 550px;
+    max-height: 150px;
 
     img{
-      // width: 450px;
-      height: 250px;
+
       object-position: 50% 50%;
       object-fit: contain;
     }

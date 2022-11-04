@@ -69,7 +69,7 @@ export const articlesNews = [
   {
     articleId: 'news2',
     bubbleTextOne: 'Jason Cong',
-    bubbleTextTwo: 'IEEE',
+    bubbleTextTwo: 'Receives IEEE',
     bubbleTextThree: ' Noyce Medal',
     articleHeadlineOne:'DISTINGUISHED PROFESSOR',
     articleHeadlineTwo:'Jason Cong Receives 2022 IEEE Noyce Medal',
@@ -101,8 +101,8 @@ export const articlesNews = [
   },
   {
     articleId: 'jalali',
-    bubbleTextOne: 'Bahram ',
-    bubbleTextTwo: 'Jalali Elected ',
+    bubbleTextOne: 'Bahram Jalali ',
+    bubbleTextTwo: 'Elected',
     bubbleTextThree: 'to NAE',
     articleHeadlineOne: 'DISTINGUISHED PROFESSOR ',
     articleHeadlineTwo: 'Bahram Jalali Elected to the National Academy of Engineering',
@@ -164,8 +164,8 @@ export const articlesNews = [
   {
     articleId: 'yahya',
     bubbleTextOne: 'Rahmat-Samii',
-    bubbleTextTwo: 'Receives AP-S',
-    bubbleTextThree: ' Award',
+    bubbleTextTwo: 'Receives IEEE',
+    bubbleTextThree: 'AP-S Award',
     articleHeadlineOne: 'DISTINGUISHED PROFESSOR ',
     articleHeadlineTwo: 'Yahya Rahmat-Samii received the 2022 IEEE AP-S Harrington-Mittra Award in Computational EM',
     articleHeadlineThree: '',
@@ -194,8 +194,8 @@ export const articlesNews = [
   },
   {
     articleId: 'chen',
-    bubbleTextOne: ' Anthony Chen',
-    bubbleTextTwo: ' Receives  ',
+    bubbleTextOne: 'Anthony Chen',
+    bubbleTextTwo: 'Receives',
     bubbleTextThree: 'Google Award',
     articleHeadlineOne: 'ASSISTANT PROFESSOR ',
     articleHeadlineTwo: 'Xiang Anthony Chen Receives Google Research Scholar Program Award',
