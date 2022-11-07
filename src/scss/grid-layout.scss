@@ -97,9 +97,11 @@
     max-height: 150px;
 
     img{
-
-      object-position: 50% 50%;
       object-fit: contain;
+      object-position: 0% 0%;
+      background-color: transparent;
+      // margin: 0 0 2em 0;
+      // overflow: hidden;
     }
   }
 
@@ -175,9 +177,10 @@
         margin: 0 3em 1em 0;
 
         img.research-logo{
-          object-fit: cover;
+          object-fit: contain;
           object-position: 50% 50%;
-          overflow: hidden;
+          max-width: 250px;
+          max-height: 250px;
         }
         &:hover{
             box-shadow: $box-shadow-a3;
@@ -187,7 +190,7 @@
       .research-name{
         font-family: 'Oswald', sans-serif;
         font-weight: 400;
-        font-size: 1.1em;
+        font-size: 0.9em;
         margin-bottom: 0.5em;
         text-indent: 0;
         text-align: left;
@@ -195,7 +198,7 @@
       .research-prof{
         font-family: 'Oswald', sans-serif;
         font-weight: 200;
-        font-size: 0.9em;
+        font-size: 1em;
         margin-bottom: 0.5em;
         text-indent: 0;
         text-align: left;

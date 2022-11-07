@@ -56,7 +56,7 @@ class Article extends Component{
           <img src={`${articleImageMain}`}
             alt={`${articleImageAltTextMain}`}
             title={`${articleAuthor}`}
-            className="article-main-photo"
+            className={`article-main-photo ${articleId}`}
           />
           <div className='overlay'></div>
         </div>
