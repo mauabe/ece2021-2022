@@ -192,7 +192,7 @@ export const articlesHighlights = [
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/Rh0OHLl_I5k/1500x1500',
     articleImageAltTextMain: 'Globe sculpture',
-    articleImageProf: '/img/Asad_Madni-7262022.jpg',
+    articleImageProf: '/img/Madni_Mentor_Medal.jpg',
     articleImageAltTextProf: 'Asad Madni',
     articleImageCred: '',
     articleAuthor: '',
