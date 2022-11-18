@@ -158,7 +158,7 @@ export const articlesHighlights = [
     articleImageAltText6: '',
     articleImageMain: '/img/ucla-Tanmay-Shankar.jpg',
     articleImageAltTextMain: 'ucla campus',
-    articleImageProf: '/img/Chang-Frank.jpg',
+    articleImageProf: '/img/Frank_Chang.jpg',
     articleImageAltTextProf: 'M.C. Frank Chang portrait',
     articleImageCred: '',
     articleAuthor: '',
