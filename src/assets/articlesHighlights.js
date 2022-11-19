@@ -77,7 +77,7 @@ export const articlesHighlights = [
     articleCallout1: '',
     articleCallout2: '',
     articleImage1: '/img/mona2.jpg',
-    articleImage2:'/img/mona3.jpg',
+    articleImage2:'/img/3.jpg',
     articleImage3: '/img/mona4.jpg',
     articleImage4:'/img/mona-iet.png',
     articleImage5:'',
