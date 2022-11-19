@@ -75,7 +75,7 @@ export const panels = [
     lastName: "Madni",
     text: 'Receives Highest Honors from IEEE and Royal Academy of Engineering',
     linkText: "&#xf061;",
-    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
+    image: "/img/PrincePhilipHouse.jpg",
     link: "highlights/madni"
   }
 
