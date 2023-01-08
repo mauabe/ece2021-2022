@@ -23,7 +23,7 @@ export const articlesOverview = [
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/aiGYVfFsshM/1500x1500',
     articleImageAltTextMain: 'California NanoSystem Institute',
-    articleImageProf: './../assets/images/arrow-alt-circle-right-solid.svg',
+    articleImageProf: '/img/CNSI-3.jpg',
     articleImageAltTextProf: '',
     articleImageCred: '',
     articleAuthor: '',
@@ -54,16 +54,16 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: 'https://source.unsplash.com/SbQrUqHI7kw/1500x1500',
+    articleImageMain: 'https://source.unsplash.com/PiqHSHYO3Uw/1500x1500',
     articleImageAltTextMain: 'UCLA building with balcony and arches',
-    articleImageProf: '/img/circuit-breaker.jpg',
+    articleImageProf: ' https://source.unsplash.com/mr9FouttLGY/500x500',
     articleImageAltTextProf: 'engineer installs an electric circuit breaker',
     articleImageCred: 'top phoyo by Joy Armani',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: ' <div class="grid-cards funding"><div class="card-deck"><div class="wider-table"><h3 class="page-title">Research Funding Source</h3><img class="piechart" src="/2021-2022/img/Research-Funding-Sources2021.svg" alt="pie chart with research funding sources"> </div></div><div><h3 class="page-title">Graduate Student Fellowships</h3><div class="card-deck"><div class="table-overview wider-table"><table id="fellowships"><thead><tr class="t-head-row"><th>2021-2022 Support</th><th></th></tr></thead><tbody><tr><td>Department Fellowships</td><td class="right">$1,472,945</td></tr><tr><td>Non-resident Tuition for Teaching Assistants</td><td class="right">$286,938</td></tr><tr><td>Faculty Unrestricted Fellowships</td><td class="right">$220,071</td></tr><tr><td>Dean\'s GSR Support</td><td class="right">$52,909</td></tr><tr><td>Qualcomm Fellowship</td><td class="right">$7,430</td></tr><tr><td>Samueli Fellowship</td><td class="right">$29,133</td></tr><tr><td>Graduate Opportunity Fellowship</td><td class="right">$74,704</td></tr><tr><td>Dissertation Year Fellowship</td><td class="right">$187,435</td></tr><tr><td>Guru Krupa Fellowship</td><td class="right">$57,786</td></tr><tr><td>NASA (FINESST) Fellowship</td><td class="right">$45,000</td></tr><tr><td>Eugene Cota Robles Fellowship</td><td class="right">$100,276</td></tr><tr><td>Dean\'s Fellowship & Camp Funds</td><td class="right">$29,000</td></tr><tr><td>Mediatek</td><td class="right">$50,757</td></tr><tr><td>Big Bang Theory Fellowship</td><td class="right">$20,000</td></tr><tr><td>Graduate Dean\'s Scholar Award</td><td class="right">$41,000</td></tr><tr class="t-total"><td>TOTAL:</td><td class="right">$2,675,384</td></tr></tbody><tr><td></td><td></td></tr></table></div></div></div></div> '
+    textCopy: ' <div class="grid-cards funding"><div class="card-deck"><div class="wider-table"><h3 class="page-title">Research Funding Source</h3><img class="piechart" src="/2021-2022/img/Research-Funding-Sources2022.svg" alt="pie chart with research funding sources"></div></div><div><h3 class="page-title">Graduate Student Fellowships</h3><div class="card-deck"><div class="table-overview"><table id="fellowships"><thead><tr classname="t-head-row"><th>2021-2022 Support</th><th></th></tr></thead><tbody><tr><td>Department Fellowships</td><td class="right">$1,601,388</td></tr><tr><td>Faculty Unrestricted Fellowships</td><td class="right">$435,404</td></tr><tr><td>Samueli Fellowship</td><td class="right">$364,064</td></tr><tr><td>Guru Krupa Fellowship</td><td class="right">$352,698</td></tr><tr><td>Non-Resident Tuition for Teaching Assistants</td><td class="right">$286,938</td></tr><tr><td>Dissertation Year Fellowship</td><td class="right">$187,435</td></tr><tr><td>Eugene Cota Robles Fellowship</td><td class="right">$170,147</td></tr><tr><td>Graduate Dean\'s Scholar Award</td><td class="right">$100,000</td></tr><tr><td>Graduate Opportunity Fellowship</td><td class="right">$75,133</td></tr><tr><td>NASA (FINESST) Fellowship</td><td class="right">$45,000</td></tr><tr><td>Dean\'s GSR Support</td><td class="right">$34,117</td></tr><tr><td>Dean\'s Fellowship & Camp Funds</td><td class="right">$29,000</td></tr><tr class="t-total"><td>TOTAL:</td><td class="right">$3,681,324</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div></div> '
   },
   {
     articleId: 'facultystaff',
@@ -89,9 +89,9 @@ export const articlesOverview = [
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/HWVle7eZzmk/1500x1500',
     articleImageAltTextMain: 'UCLA Building with concrete brise-soleil and arches',
-    articleImageProf: '/img/ucla-samueli.jpg',
-    articleImageAltTextProf: 'UCLA Engineering Building',
-    articleImageCred: 'top photo by Joy Armani',
+    articleImageProf: 'https://source.unsplash.com/MVQFGoo1Mqc',
+    articleImageAltTextProf: 'DNA Genotyping and Sequencing by National Cancer Institute',
+    articleImageCred: 'top photo by Joy Armani, DNA sequencing boxes by National Cancer Institute',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
@@ -105,7 +105,7 @@ export const articlesOverview = [
     bubbleTextThree: '',
     articleHeadlineOne:'ECE ',
     articleHeadlineTwo:'Student Enrollment',
-    articleHeadlineThree: 'Fall 2020',
+    articleHeadlineThree: 'Fall 2021',
     articleCallout1: '',
     articleCallout2: '',
     articleImage1: '',
@@ -122,14 +122,14 @@ export const articlesOverview = [
     articleImageAltText6: '',
     articleImageMain:   'https://source.unsplash.com/KAK0jPmDLt8/1500x1500',
     articleImageAltTextMain: 'UCLA building with circular facade',
-    articleImageProf: '/img/Engineering-V_041.jpg',
+    articleImageProf: 'https://source.unsplash.com/HH4WBGNyltc',
     articleImageAltTextProf: 'Department Overview ',
     articleImageCred: ' top photo by Joy Armani',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: '  <div class="grid-cards enrollment"> <div class="card-deck"> <div class="table-overview wider-table"> <table id="fall-undergrad"> <thead> <tr class="t-head-row"> <th colspan="6">Undergraduate Students</th> </tr></thead> <tbody> <tr class="sub-head"> <td></td><td>CE Freshman</td><td>EE Freshman</td><td>CE Transfer</td><td>EE Transfer</td><td>Total</td></tr><tr> <td>Applicants</td><td>1441</td><td>1650</td><td>207</td><td>339</td><td>3637</td></tr><tr> <td>Admitted</td><td>34</td><td>240</td><td>13</td><td>115</td><td>402</td></tr><tr> <td>Intent to Register</td><td>16</td><td>85</td><td>9</td><td>68</td><td>178</td></tr><tr> <td>New Students</td><td>16</td><td>85</td><td>8</td><td>67</td><td>176</td></tr><tr class="t-total"> <td  colspan="2">Total Enrollment</td><td></td><td></td><td></td><td>476</td></tr></tbody> <tfoot> <tr> <td></td><td></td><td></td><td></td><td></td><td></td></tr></tfoot> </table> </div></div><div class="card-deck"> <div class="table-overview wider-table"> <table id="fall-grad"> <thead> <tr class="t-head-row"> <th colspan="4"> Graduate Students</th> </tr></thead> <tbody> <tr class="sub-head"> <td></td><td>MS</td><td>PhD</td><td>Total</td></tr><tr> <td>Applicants</td><td>1322</td><td>527</td><td>1849</td></tr><tr> <td>Admitted</td><td>512</td><td>63</td><td>575</td></tr><tr> <td>Intent to Register</td><td>114</td><td>30</td><td>144</td></tr><tr> <td>New Students</td><td>94</td><td>27</td><td>121</td></tr><tr class="t-total"> <td>Total Enrollment</td><td>238</td><td>242</td><td>480</td></tr></tbody> <tfoot> <tr> <td></td><td></td><td></td><td></td></tr></tfoot> </table> </div></div></div>    '
+    textCopy: ' <div class="grid-cards enrollment"><div class="card-deck"><div class="table-overview wider-table"><table id="fall-undergrad"><thead><tr class="t-head-row"><th colspan="6">Undergraduate Students</th></tr></thead><tbody><tr class="sub-head"><td></td><td>CE Freshman</td><td>EE Freshman</td><td>CE Transfer</td><td>EE Transfer</td><td>Total</td></tr><tr><td>Applicants</td><td>1441</td><td>1650</td><td>207</td><td>339</td><td>3,637</td></tr><tr><td>Admitted</td><td>34</td><td>240</td><td>13</td><td>115</td><td>402</td></tr><tr><td>Intent to Register</td><td>16</td><td>85</td><td>9</td><td>68</td><td>178</td></tr><tr><td>New Students</td><td>16</td><td>84</td><td>8</td><td>67</td><td>175</td></tr><tr class="t-total"><td colspan="2"></td><td></td><td></td><td></td><td></td></tr></tbody><tfoot><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></tfoot></table></div></div><div class="card-deck"><div class="table-overview wider-table"><table id="fall-grad"><thead><tr class="t-head-row"><th colspan="4">Graduate Students</th></tr></thead><tbody><tr class="sub-head"><td></td><td>MS</td><td>PhD</td><td>Total</td></tr><tr><td>Applicants</td><td>1199</td><td>534</td><td>1733</td></tr><tr><td>Admitted</td><td>412</td><td>72</td><td>484</td></tr><tr><td>Intent to Register</td><td>244</td><td>48</td><td>292</td></tr><tr><td>New Students</td><td>94</td><td>27</td><td>121</td></tr><tr class="t-total"><td>Total Enrollment</td><td>206</td><td>41</td><td>247</td></tr></tbody><tfoot><tr><td></td><td></td><td></td><td></td></tr></tfoot></table></div></div></div> '
 
   },
   {
@@ -156,14 +156,14 @@ export const articlesOverview = [
     articleImageAltText6: '',
     articleImageMain:   'https://source.unsplash.com/G2vD1YK5wk4/1500x1500',
     articleImageAltTextMain: 'UCLA interior of buioding with large chandelier',
-    articleImageProf: '/img/student-graduation.jpg',
+    articleImageProf: 'https://source.unsplash.com/Ij8Zx_HdcqY',
     articleImageAltTextProf: 'students toss up their graduation caps',
     articleImageCred: '<span>top photo by Joy Armani</span>',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: ' <div class="grid-cards degreesconferred"><div class="card-deck"><div class="table-overview"><table id="degree-bs"><thead><tr class="t-head-row"><th>Bachelor of Sciences</th><th></th></tr></thead><tbody><tr><td>Summer 2020</td><td>7</td></tr><tr><td>Fall 2020</td><td>13</td></tr><tr><td>Winter 2021</td><td>22</td></tr><tr><td>Spring 2021</td><td>130</td></tr><tr class="t-total"><td>Total:</td><td>172</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-ms"><thead><tr class="t-head-row"><th>Master of Sciences</th><th></th></tr></thead><tbody><tr><td>Summer 2020</td><td>5</td></tr><tr><td>Fall 2020</td><td>50</td></tr><tr><td>Winter 2021</td><td>45</td></tr><tr><td>Spring 2021</td><td>63</td></tr><tr class="t-total"><td>Total:</td><td>163</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-ms"><thead><tr class="t-head-row"><th>Master of Engineering</th><th></th></tr></thead><tbody><tr><td>Summer 2020</td><td>1</td></tr><tr><td>Fall 2020</td><td>-</td></tr><tr><td>Winter 2021</td><td>-</td></tr><tr><td>Spring 2021</td><td>-</td></tr><tr class="t-total"><td>Total:</td><td>1</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-phd"><thead><tr class="t-head-row"><th>Ph.D.</th><th></th></tr></thead><tbody><tr><td>Summer 2020</td><td>5</td></tr><tr><td>Fall 2020</td><td>13</td></tr><tr><td>Winter 2021</td><td>4</td></tr><tr><td>Spring 2021</td><td>13</td></tr><tr class="t-total"><td>Total:</td><td>34</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
+    textCopy: ' <div class="grid-cards degreesconferred"><div class="card-deck"><div class="table-overview"><table id="degree-bs"><thead><tr class="t-head-row"><th>Bachelor of Sciences</th><th></th></tr></thead><tbody><tr><td>Summer 2021</td><td>4</td></tr><tr><td>Fall 2021</td><td>14</td></tr><tr><td>Winter 2022</td><td>18</td></tr><tr><td>Spring 2022</td><td>133</td></tr><tr class="t-total"><td>Total:</td><td>169</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-ms"><thead><tr class="t-head-row"><th>Master of Sciences</th><th></th></tr></thead><tbody><tr><td>Summer 2021</td><td>5</td></tr><tr><td>Fall 2021</td><td>30</td></tr><tr><td>Winter 2022</td><td>31</td></tr><tr><td>Spring 2022</td><td>53</td></tr><tr class="t-total"><td>Total:</td><td>119</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-ms"><thead><tr class="t-head-row"><th>Master of Engineering</th><th></th></tr></thead><tbody><tr><td>Summer 2021</td><td>-</td></tr><tr><td>Fall 2021</td><td>-</td></tr><tr><td>Winter 2022</td><td>-</td></tr><tr><td>Spring 2022</td><td>-</td></tr><tr class="t-total"><td>Total:</td><td>-</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="degree-phd"><thead><tr class="t-head-row"><th>Ph.D.</th><th></th></tr></thead><tbody><tr><td>Summer 2021</td><td>5</td></tr><tr><td>Fall 2021</td><td>13</td></tr><tr><td>Winter 2022</td><td>13</td></tr><tr><td>Spring 2022</td><td>14</td></tr><tr class="t-total"><td>Total:</td><td>45</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
 
   },
   {
@@ -173,7 +173,7 @@ export const articlesOverview = [
     bubbleTextThree: 'Admission',
     articleHeadlineOne:'ECE Student',
     articleHeadlineTwo:'Graduate Student Admission',
-    articleHeadlineThree: 'Fall 2020',
+    articleHeadlineThree: 'Fall 2021',
     articleCallout1: '',
     articleCallout2: '',
     articleImage1: '',
@@ -190,14 +190,14 @@ export const articlesOverview = [
     articleImageAltText6: '',
     articleImageMain:   'https://source.unsplash.com/hyeAEcQq2m4/1500x1500',
     articleImageAltTextMain: 'UCLA building and tree-lined walkway',
-    articleImageProf: '/img/student-admission.jpg',
+    articleImageProf: 'https://source.unsplash.com/tqLXJOof370',
     articleImageAltTextProf: 'Student typing on laptop',
     articleImageCred: '<span>top photo by Joy Armani</span>',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: '  <div class="grid-cards graduate-admission"><div class="card-deck"><div><div class="table-overview"><table id="graduate-admission-country"><thead><tr class="t-head-row"><th>Graduate Applicants</th><th></th></tr></thead><tbody><tr><td>USA</td><td>246</td></tr><tr><td>China</td><td>967</td></tr><tr><td>India</td><td>351</td></tr><tr><td>Taiwan</td><td>114</td></tr><tr><td>South Korea</td><td>30</td></tr><tr><td>Iran</td><td>17</td></tr><tr><td>Other</td><td>128</td></tr><tr class="t-total"><td>Total:</td><td>1853</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div><div class="table-overview"><table id="graduate-admission"><thead><tr class="t-head-row"><th colspan="2">Graduate Students Admitted</th></tr></thead><tbody><tr class="sub-head"><td>Circuits and Embedded Systems</td><td></td></tr><tr><td>Admitted</td><td>198</td></tr><tr><td>Rejected</td><td>447</td></tr><tr><td>Admission Rate</td><td>29%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>675</td></tr><tr class="sub-head"><td>Physical and Wave Electronics</td><td></td></tr><tr><td>Admitted</td><td>91</td></tr><tr><td>Rejected</td><td>214</td></tr><tr><td>Admission Rate</td><td>30%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>305</td></tr><tr class="sub-head"><td>Signals and Systems</td><td></td></tr><tr><td>Admitted</td><td>216</td></tr><tr><td>Rejected</td><td>657</td></tr><tr><td>Admission Rate</td><td>24%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>873</td></tr><tr class="t-total"><td>Total Applicants for Fall 2020</td><td>1853</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
+    textCopy: ' <div class="grid-cards graduate-admission"><div class="card-deck"><div class="table-overview"><table id="graduate-admission-country"><thead><tr class="t-head-row"><th>Graduate Applicants by Country</th><th></th></tr></thead><tbody><tr><td>USA</td><td>296</td></tr><tr><td>China</td><td>744</td></tr><tr><td>India</td><td>387</td></tr><tr><td>Taiwan</td><td>104</td></tr><tr><td>South Korea</td><td>52</td></tr><tr><td>Iran</td><td>22</td></tr><tr class="t-total"><td>Total:</td><td>1605</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="graduate-admission"><thead><tr class="t-head-row"><th colspan="2">Graduate Students Admitted</th></tr></thead><tbody><tr class="sub-head"><td>Circuits and Embedded Systems</td><td></td></tr><tr><td>Admitted</td><td>148</td></tr><tr><td>Rejected</td><td>495</td></tr><tr><td>Admission Rate</td><td>23%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>646</td></tr><tr class="sub-head"><td>Physical and Wave Electronics</td><td></td></tr><tr><td>Admitted</td><td>48</td></tr><tr><td>Rejected</td><td>156</td></tr><tr><td>Admission Rate</td><td>24%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>205</td></tr><tr class="sub-head"><td>Signals and Systems</td><td></td></tr><tr><td>Admitted</td><td>154</td></tr><tr><td>Rejected</td><td>582</td></tr><tr><td>Admission Rate</td><td>21%</td></tr><tr class="sub-total"><td>Total Applicants</td><td>736</td></tr><tr class="t-total"><td>Total Applicants for Fall 2021</td><td>1733</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
 
   },
 
