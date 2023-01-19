@@ -46,7 +46,7 @@
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
-          font-size: 1.2em;
+          font-size: 1.4em;
           // letter-spacing: 0.1ch;
           text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
@@ -62,16 +62,17 @@
       .panelText {
         display: flex;
         flex: 1 1 auto;
-        color: $gray-20;
+        color: $gray-40;
         font-family:'Nova Square', sans-serif;
         font-size: 1.1em;
         margin: 1em;
-        // padding: 0 0 1em 0;
-        visibility: hidden;
-        &.showText{
-          color: $gray-40;
-          visibility: visible;
-        }
+        line-height: 1.5;
+        padding: 0 0 1em 0;
+        // visibility: hidden;
+        // &.showText{
+        //   color: $gray-40;
+        //   visibility: visible;
+        // }
       }
       .linkText {
         display: flex;
@@ -99,11 +100,13 @@
       }
       &:hover{
         //hover over panelContent, blue box
-        color: $gray-40;
+        color: $gray-20;
         cursor: context-menu;
         background-image: radial-gradient($menublue--80, $dkblue);
         box-shadow: $box-shadow5;
         .panelText {
+          color: red;
+          color: $gray-20;
           filter: brightness(.8);
         }
       }
@@ -120,7 +123,7 @@
           }
         }
 
-        .panelText.showText{
+        .panelText, .showText{
           color: $gray-20;
           visibility: visible;
         }
