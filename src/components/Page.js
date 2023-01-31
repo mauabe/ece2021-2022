@@ -25,8 +25,8 @@ class Page extends Component{
 
 
     //TODO: Add pathname to article
-		console.log('%c PROPS at Page constructor this.props::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.props )
-		console.log('%c PROPS at Page constructor articleSelection::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.state.articleSelection )
+		// console.log('%c PROPS at Page constructor this.props::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.props )
+		// console.log('%c PROPS at Page constructor articleSelection::', 'color:black;background:pink;padding:6px;border:1px dashed red ', this.state.articleSelection )
   }
 
 
